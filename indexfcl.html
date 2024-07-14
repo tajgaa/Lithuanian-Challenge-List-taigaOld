@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fun Challenge List</title>
+
+  <link rel="apple-touch-icon" href="css/assets/favicon.ico">
+  <link rel="icon" href="css/assets/favicon.ico">
+
+	<meta property="og:site_name" content="Fun Challenge List">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="FCL">
+	<meta property="og:description" 
+	content="Home of the Official FUN Challenge List">
+	<meta name="og:image" itemprop="image"
+	content="https://cdn.discordapp.com/attachments/868053273268068372/997350062353043516/FCL.png">
+	<meta name="theme-color" content="#3658e0"/>
+	
+	<meta name="description"
+	content="Home of the Official FUN Challenge List">
+	<meta name="keywords" content="Geometry Dash, FCL, Fun Challenge List">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+  <link id="styles" rel="stylesheet" href="css/stylesheet-pilkasgradientshit.css" type="text/css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700&display=swap">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script type='text/javascript' src="js/list.js"></script>
+	<script type='text/javascript' src="js/userData.js"></script>
+  <script id="christmas-theme-snow" src="node_modules/particles.js/particles.js"></script>
+  <header id="dl-header">
+    <div id="particles-js"></div>
+    <div id="sitename">
+      <!--<img src="https://discord.gg/q8N3VtMg4T" alt="" width="60" height="60">-->
+      <img id="list-logo" height="60px" width="139px" src="css/assets/thebronze.png" alt="FCL">
+      <em id="version-node"></em>
+    </div>
+    <div id="krismas">
+      <p>krismas is coming</p>
+    </div>
+    <div id="header-links">
+      <a id="record-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
+        Submit a Record
+      </a>
+      <a id="pc-link" target="_blank" href="https://discord.gg/NwJBKt5VGG">
+        <img src="css/assets/discord-logo-white.svg" alt="Discord"></img>
+      </a>
+    </div>
+  </header>
+  <div id="list">
+  </div>
+  <div id="info">
+    <div id="inner-info">
+      <center>
+        <div id="leveltitle"></div>
+        <div id="levelauthor">by <span id="inside-level-author"></span></div>
+        <div id="leveldescription"></div>
+        <div id="levelvid"></div>
+      </center>
+      <div id="records">
+        <center>
+          <div id="level-info">
+            <div id="records-score"></div>
+            <div id="copy-buttons">
+              <div id="records-id"></div>
+              <div id="records-pass"></div>
+            </div>
+            <div id="records-song"></div>
+          </div>
+          <hr>
+          <div id="records-title"><strong>Records</strong></div>
+          <div id="qualification"><strong id="levelqualify"></strong>
+          <a id="level-submit" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekkziDp9VP4he7tcOpMAuW1Fz2KXBxbCuBSQj4hejQYOtRWg/viewform?usp=sf_link">
+            Submit Record 
+          </a>
+          </div>
+        </center>
+        <div id="records-table">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="additional-information">
+    <div id="inner-right-info">
+      <div id="credits">
+        Redesign by 
+        <a href="https://scl.pages.dev/" target="_blank">
+          KrisGra
+        </a>
+      </div>
+      <div id="staff-list">
+        <ul>
+
+          <li>
+            <div class="staff-title" id="owner-title">
+              <img id="owner-icon" src="css/assets/owner-icon.svg" alt="owner">
+              Owners
+            </div>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCjLnriOV81-14jrbrJbxPMw" target="_blank">Leywin</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UC2ukkTXV0bpVsobRKg6xgnA" target="_blank">Whizkid05</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UC-oIsUwn0QtJwbo3_R9DeGA" target="_blank">Hilo</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCMgmMN55bpzlWfvBcPzrLGQ" target="_blank">Brooke</a>
+          </li>
+
+          <li>
+            <div class="staff-title" id="admin-title">
+              <img id="admin-icon" src="css/assets/admin-icon.svg" alt="admin">
+              Admins
+            </div>
+          </li>
+          
+          <li>
+            <a href="https://www.youtube.com/channel/UCH8ydIN7wks2JMN53NxYBXw" target="_blank">Lunar79Au</a>
+          </li>
+
+          <li>
+            <div class="staff-title" id="helper-title">
+              <img id="helper-icon" src="css/assets/helper-icon.svg" alt="helper">
+              Helpers
+            </div>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCSRD9giojTqVGPLbGFiAhDQ" target="_blank">Boke</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCN5qw9LNKNmSm7oP4ijpl7w/featured" target="_blank">Troy</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCAgeGug7v1tFw__iVyLDr6Q" target="_blank">asmallsock</a>
+          </li>
+
+          <li>
+            <div class="staff-title" id="coder-title">
+              <img id="coder-icon" src="css/assets/coder-icon.svg" alt="coder">
+              Coders
+            </div>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/krisgra" target="_blank">KrisGra</a>
+          </li>
+        </ul>
+      </div>
+      <div id="guidelines">
+        <div id="guidelines-title">Record Submission Guidelines</div>
+        <ul>
+          <li>
+            Completed the level with <strong>no hacks</strong> (but FPS bypass is allowed up to 360 fps)
+          </li>
+          <li>
+            Completed the level that is <strong>listed on the site</strong> (please check the <strong>level ID</strong> before you submit a record)
+          </li>
+          <li>
+            Have either source audio <strong>or</strong> clicks/taps in the video
+          </li>
+          <li>
+            The recording must have a <strong>previous attempt</strong> and <strong>entire death</strong> animation shown before the completion,
+            unless the completion is on the first attempt
+          </li>
+          <li>
+            Do not use secret routes or bug routes
+          </li>
+          <li>
+            Do not use easy modes, only a record of the <strong>unmodified level</strong> qualifies
+          </li>
+          <li>
+            Review <strong>LDMs</strong> with a <strong>list staff</strong> member in our 
+            <a href="https://discord.gg/NwJBKt5VGG" target="_blank">
+              Discord Server</a>
+            before using them
+          </li>
+        </ul>
+        <!-- <p>
+          Changes:
+        <ul>
+          Have you seen the clown that hides from gay people bro????
+        </ul>
+        </p> -->
+      </div>
+    </div>
+    <div id="user-rank-info">
+      <!-- <style type='text/css'>
+        /*why the hell does this code exist and
+        why is it korean*/
+        /* a:link {
+          color: white;
+          text-decoration: none;
+        } */
+
+        /* 아직 방문하지 않은경우 */
+        /* a:visited {
+          color: white;
+          text-decoration: none;
+        } */
+
+        /* 한번 이상 방문한 링크 처리 */
+        /* a:active {
+          color: white;
+          text-decoration: none;
+        } */
+
+        /* 마우스로 클릭하는 순간 */
+        /* a:hover {
+          color: rgba(255, 255, 255, 0.5);
+          text-decoration: none;
+        } */
+
+        /* 마우스 링크 위 올려 놓았을때 */
+      </style> -->
+      <center><strong>User Stats</strong></center>
+      <div id="user-rank"></div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'css/christmas-assets/particlesjs-config.json', function () {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+  <script>
+    // height changing script
+    var hChange = function () {
+      var height = $(window).height();
+      let remainingHeight = (height - 100) + "px";
+      $("#list").css('height', remainingHeight)
+      $("#additional-information").css('height', remainingHeight)
+      $("#user-rank").css('height', remainingHeight)
+      $("#info").css('height', remainingHeight)
+    };
+    hChange();
+    $(window).resize(hChange)
+    // random color
+    var c = 0; //Math.floor(Math.random()*256);
+    function cueCSS() {}
+    cueCSS();
+    $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 0%);')
+  </script>
+  <script name="userpoint" type="text/javascript">
+
+    function getPoint(rank) {
+      if (rank > 150) {
+        return roundNumber(15, 3);
+      } else {
+        return roundNumber((100 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50, 3);
+      }
+    }
+    function roundNumber(num, scale) {
+      if (!("" + num).includes("e")) {
+        return +(Math.round(num + "e+" + scale) + "e-" + scale);
+      } else {
+        var arr = ("" + num).split("e");
+        var sig = ""
+        if (+arr[1] + scale > 0) {
+          sig = "+";
+        }
+        return +(Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) + "e-" + scale);
+      }
+    }
+    function getUserPoint(rank, percent, cutline, hz) {
+      var hzpoint = 0.0;
+      if (hz == null) {
+        hzpoint = 0;
+      } else if (hz == "Mobile") {
+        hzpoint = 0;
+      } else {
+        var hzInt = parseInt(hz.replace("Bypass", "").replace("hz", "").replace("bypass", "").replace("Hz", "").replace("HZ", ""));
+        if (hzInt >= 110) {
+          hzpoint = 0;
+        } else if (hzInt >= 70) {
+          hzpoint = 0;
+        } else {
+          hzpoint = 0;
+        }
+      }
+      var point_rank = 0;
+      if (rank > 50) {
+        point_rank = 50;
+      } else {
+        point_rank = rank;
+      }
+      hzpoint = 1 + (hzpoint * ((50 - point_rank) / 50));
+      if (rank > 150) {
+        return 0;
+      } else {
+        var score = roundNumber((((100 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50) * hzpoint) * ((percent - (cutline - 1)) / (100 - (cutline - 1))), 3);
+        if (percent != 100) {
+          return roundNumber(score - (score / 3), 3);
+        } else {
+          return score;
+        }
+      }
+    }
+
+    //popup for the "and more"
+    // function getAuthors(rank) {
+    //   Swal.fire({
+    //     title: "All Authors",
+    //     text: list[rank - 1].more,
+    //     color: "white",
+    //     background: "rgb(32, 49, 149)",
+    //     confirmButtonColor: "rgb(50, 73, 203)"
+    //   });
+    // }
+
+    var rank_node = $("#user-rank");
+    var rank_data = [];
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      for (var a = 0; a < entry.vids.length; a++) {
+        var entry2 = entry.vids[a];
+        var isLoot = false;
+        for (var b = 0; b < rank_data.length; b++) {
+          if (rank_data[b].name.toUpperCase() == entry2.user.toUpperCase()) {
+            isLoot = true;
+          }
+        }
+        var po;
+        po = getUserPoint(i + 1, entry2.percent, entry.percentToQualify, entry2.hz);
+        if (isLoot == true) {
+          for (var b = 0; b < rank_data.length; b++) {
+            var user_name = rank_data[b].name.toUpperCase();
+            var data_name = entry2.user.toUpperCase();
+            if (user_name == data_name) {
+              rank_data[b].point = rank_data[b].point + po;
+            }
+          }
+        } else {
+          rank_data.push({name: entry2.user, point: po});
+        }
+      }
+    }
+    var sortingField = "point"
+    rank_data.sort(function (a, b) {
+      return b[sortingField] - a[sortingField];
+    });
+    for (var i = 0; i < rank_data.length; i++) {
+      rank_data[i].point = roundNumber(rank_data[i].point, 3);
+    }
+
+    rank_data = userList();
+    var rank = `<ol>`;
+    for (var i = 0; i < rank_data.length; i++) {
+      sc = `getUserData(${i})`;
+      rank = `${rank} <li><span onclick="${sc}" style="cursor:pointer">${i + 1}. ${rank_data[i].name} : ${rank_data[i].point} ➦</span></li>`;
+    }
+    rank = `${rank} </ol>`;
+    rank_node.html(`${rank}`);
+  </script>
+  <script name="postload" type="text/javascript">
+    var l = getParameterByName('q', window.location.href) * 1 - 1;
+    var list_node = $("#list");
+    var record_node = $("#records-table")
+    var legacy_count = 0;
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      if (entry.key == null) {
+        legacy_count++;
+      }
+    }
+    $("#version-node").text("(v" + version[0] + "." + version[1] + "." + version[2] + ")");
+    list.sort(function (a, b) {
+      var legacy_count = 0;
+      for (var i = 0; i < list.length; i++) {
+        var entry = list[i];
+        if (entry.key == null) {
+          legacy_count++;
+        }
+      }
+      var arank = 0;
+      var brank = 0;
+      if (a.key == null) {
+        arank = 150 + (legacy_count - a.legacyKey);
+      } else {
+        arank = (a.key) + 1;
+      }
+      if (b.key == null) {
+        brank = 150 + (legacy_count - b.legacyKey);
+      } else {
+        brank = (b.key) + 1;
+      }
+      return arank - brank;
+    });
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      if (entry.key != null) {
+        $("<button>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+      } else {
+        $("<button>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+      }
+    }
+    // handlers
+    var load = function (node) {
+      var num;
+      if (typeof node == 'number') {
+        num = node;
+      } else {
+        num = $(node).attr('value')
+      }
+      var entry = list[num];
+      if (!entry) {
+        load(0)
+      } else {
+        if (entry.verificationVid !== null && entry.verificationVid !== "") {
+          entry.verificationVid = entry.verificationVid
+            .replace(/www\.youtube.com\/watch\?v=/gi, '')
+            .replace(/\/youtu\.be/gi, '')
+            .replace(/&t=\d+s/gi, '')
+            .replace(/https:\/\//gi, '')
+        }
+        var rank = 0;
+        if (entry.key == null) {
+          rank = 150 + (legacy_count - entry.legacyKey);
+        } else {
+          rank = (entry.key) + 1;
+        }
+        var hacked = "";
+        if (entry.hacked || entry.phacked) {
+          if (entry.hacked) {
+            hacked = "<span class='hacked'>HACKED</span>";
+          } else {
+            hacked = "<span class='p-hacked'>POSSIBLY HACKED</span>";
+          }
+        }
+        $("#leveltitle").html((rank > 150 ? `` : `<div id="levelrank">#${rank}</div> `) + `<span id="levelname">${entry.name}</span>` + hacked);
+        var author = entry.author;
+        var final_author;
+        if (author.includes(' more ')) {
+          final_author = author.replace('more', `<button style="cursor: pointer; user-select: none;" id="more">more</button>`);
+        } else {
+          final_author = author
+        }
+        final_author = final_author.replace(' [', ', Verified by ').replace(']', "")
+        $("#inside-level-author").html(final_author);
+        
+
+
+        $("#leveldescription").css("display", "none");
+        if(entry.desc) {
+          $("#leveldescription").text(entry.desc);
+          $("#leveldescription").css("display", "block");
+        }
+
+        if (entry.verificationVid && entry.verificationVid.trim() !== "") {
+          $("#levelvid").html(`<iframe title="youtube" class="vid" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+        }
+
+        $("#levelqualify").text(`Percent to qualify: ${entry.percentToQualify}%`);
+        $("#records-score").html(`<span id="levelpoints">${getPoint(rank)} Points</span>`);
+        $("#records-id").html(`Level ID:<div class="level-info-button" id="copyid"><span id="level-id">${entry.id}</span><img class="clipboard" src="css/assets/copy-regular.svg" alt="copy"></div>`);
+
+        entry.pass ?
+        $("#records-pass").html(`Level Password:<div class="level-info-button" id="copypass"><span id="level-pass">${entry.pass}</span><img class="clipboard" src="css/assets/copy-regular.svg" alt="copy"></div>`)
+        :
+        $("#records-pass").html(`Level Password:<div class="level-info-button">No Pass</div>`);
+
+        $("#records-song").css("display", "none");
+        if(entry.song) {
+          $("#records-song").html(`Custom Song: <div class="level-info-button" id="download-button"><a href="${entry.song}" target="_blank" id="songlink">Download</a><img class="download" src="css/assets/download-solid.svg" alt="download"></div>`);
+          $("#records-song").css("display", "");
+        }
+        $("#inside-level-author").html(final_author);
+        $(record_node).empty();
+        entry.vids.sort(function (a, b) {
+          return b.percent - a.percent;
+        });
+        for (var j = 0; j < entry.vids.length; j++) {
+          var record = entry.vids[j];
+          if (!record.link.includes('https://')) {
+            record.link = "https://" + record.link;
+          }
+          if (record.hz == null) {
+            record.hz = "144hz";
+          }
+          $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>) ${record.hz}</div>`).appendTo(record_node)
+        }
+      }
+      cueCSS();
+      
+      tippy('#more', {
+        content: `<strong>${list[rank - 1].more}</strong>`,
+        allowHTML: true,
+        placement: "bottom",
+        arrow: true,
+        animation: 'scale',
+        trigger: 'click',
+      });
+      //ok I actually finally got it working 
+      //KrisGra#0209 16:02 07.11.2022
+      let background = "rgb(32, 49, 149)";
+
+      if($("#styles").attr("href").includes("stylesheet-christmas.css")){
+        background = "rgb(202, 60, 60)"
+      }
+
+      $("#copyid").on('click', (e) => {
+        navigator.clipboard.writeText($("#level-id").text());
+        Swal.fire({
+          icon: 'success',
+          text: 'Level ID Copied!',
+          color: "ghostwhite",
+          background: background,
+          toast: true,
+          timer: 1750,
+          timerProgressBar: true,
+          position: "top",
+          showConfirmButton: false
+        });
+      });
+      $("#copypass").on('click', (e) => {
+        navigator.clipboard.writeText($("#level-pass").text());
+				Swal.fire({
+					icon: 'success',
+					text: 'Level Password Copied!',
+					color: "ghostwhite",
+					background: background,
+					toast: true,
+					timer: 1750,
+					timerProgressBar: true,
+					position: "top",
+					showConfirmButton: false
+				});
+      });
+
+    };
+    $('.entry').click(function () {
+      $('.entry').removeClass('selected')
+      $(this).addClass('selected');
+      load(this);
+    })
+    // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    load(l * 1)
+  </script>
+  <script>
+    $("#christmas-theme-snow").removeAttr("src");
+    $("#particles-js").hide()
+    $("#krismas").hide()
+    if($("#styles").attr("href").includes("stylesheet-christmasbober.css")){
+      $("#christmas-theme-snow").attr("src", "node_modules/particles.js/particles.js") ;
+      $("#particles-js").show()
+      $("#krismas").show()
+    }
+  </script>
+<!--This did not work in fact-->
+  <!-- <script>
+    //you have no idea how frustrating this was to make
+    //i tried so many solutions if you are reading this
+    //just know that at the time of writing this i just figured out
+    //finally how to make this work and i am so relieved
+    //bless the lord I feel so smart right now
+    //KrisGra#0209 at 15:33 07.11.2022
+    $("#copyid").on('click', (e) => {
+      navigator.clipboard.writeText($("#level-id").text());
+      Swal.fire({
+        text: $("#level-id").text(),
+        background: "#3c3c3c"
+      });
+    });
+    $("#copypass").on('click', (e) => {
+      navigator.clipboard.writeText($("#level-pass").text());
+      Swal.fire({
+        text: $("#level-pass").text(),
+        background: "#3c3c3c"
+      });
+    });
+    //this solution does suck tho imo 15:35
+  </script> -->
+  <noscript>
+    <div id="block">
+      You are not using JavaScript
+    </div>
+  </noscript>
+</body>
+
+</html>
