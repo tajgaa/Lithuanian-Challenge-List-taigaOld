@@ -1,0 +1,223 @@
+*{
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #ffffff !important;
+    text-shadow: 2px 3px 3px rgba(0,0,0,0.6);
+  }
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(180deg, rgb(94, 26, 18), rgb(73, 19, 19));
+    border-bottom: 5px solid ghostwhite;
+  box-shadow: 0 0 25px 5px black;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 5em;
+  }
+#particles-js {
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+  #sitename{
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    font-size: 2em;
+  }
+  
+  #pc-link{
+    position: fixed;
+    text-align: right;
+    top: 35px;
+    right: 30px;
+    font-size: 1.3em;
+  }
+  #list{
+    background: rgb(152, 27, 27);
+    /*background: rgb(156, 156, 156);*/
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 30%;
+    overflow-y: auto;
+  }
+  #additional-information{
+    background: linear-gradient(90deg, rgb(69, 18, 13), rgb(61, 10, 10));
+    /*background: rgb(190, 190, 190);*/
+    position: fixed;
+    top: 120px;
+    right: 0;
+    width: 30%;
+    overflow-y: auto;
+  }
+  #info{
+    background: linear-gradient(180deg, rgb(25, 87, 32), rgb(9, 47, 16));
+    position: fixed;
+    top: 120px;
+    left: 30%;
+    width: 40%;
+    overflow-y: auto;
+  }
+  #inner-info, #inner-right-info{
+    padding: 1em;
+  }
+  .entry{
+    padding: 1.3em;
+  }
+  .entry:nth-child(odd){
+  background: linear-gradient(90deg, rgb(112, 36, 36), rgb(143, 45, 45));
+  }
+  
+  A:hover {color:rgb(166, 104, 104) !important; text-decoration:none; }
+  
+.selected:nth-child(odd){
+  background: linear-gradient(300deg, rgb(104, 24, 24) 0%, rgb(97, 21, 21) 45%);
+}
+  }
+  .author{
+    font-variant: small-caps;
+  }
+  #levelname{
+    font-size: 1.9em;
+    font-weight: bold;
+  
+  }
+  #levelauthor{
+    font-size: 1.1em;
+  }
+  #leveldescription{
+    font-size: 0.8em;
+    font-variant: small-caps;
+  
+  }
+  .vid{
+    width: 100%;
+  }
+  #records{
+    width: 100%;
+  }
+  #records-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+  }
+  #records-table{
+    border: 0.5px solid rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: 0 0 5px 1px black;
+  }
+  #explanation-simple-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+  }
+  #explanation-simple{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  .interentry{
+    width: 100%;
+    padding: 0.5em;
+  }
+.entry:nth-child(even){
+  background: linear-gradient(90deg, rgb(33, 120, 42), rgb(33, 111, 31));
+  }
+  .entry:nth-child(even):hover{
+    background: #369900;
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+  }
+.entry:nth-child(odd):hover{
+    background: #b30000;
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+  }
+.selected:nth-child(even){
+  background: linear-gradient(300deg, rgb(21, 101, 31) 0%, rgb(22, 75, 27) 45%);
+}
+  #block{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-size: 3em;
+  }
+  .hacked{
+    background: rgb(0, 64, 255);
+    color: white;
+    font-weight: strong;
+    font-size: 0.4em;
+    padding: 0.4em;
+    border-radius: 1em;
+  }
+  .p-hacked{
+    background: rgb(48, 133, 214);
+    color: white;
+    font-weight: strong;
+    font-size: 0.4em;
+    padding: 0.4em;
+    border-radius: 1em;
+  }
+  #hi{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 99;
+  }
+  #user-rank {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  Swal2 {
+    color: black;
+  }
+
+    .interentry{
+  padding: 0.5em;
+  border: 0px solid rgb(255, 255, 255);
+  
+}
+.record-entry a:link{
+  color: white !important;
+}
+.record-entry:nth-child(even){
+  background: rgb(55, 144, 77);
+}
+.record-entry:nth-child(odd){
+  background: rgb(173, 52, 52);
+}
+
+  /* scroll bar [DO NOT MODIFY] */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(26, 26, 26); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(68, 68, 68); 
+  }
