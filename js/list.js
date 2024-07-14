@@ -3,18 +3,6 @@ const d = {
     {
       "vids": [
         {
-          "user": "SLICK DA GOAT",
-          "link": "",
-          "percent": 100,
-          "hz": ""
-        },
-        {
-          "user": "feit 2222",
-          "link": "",
-          "percent": 100,
-          "hz": ""
-        },
-        {
           "user": "Algirdas42",
           "link": "",
           "percent": 100,
