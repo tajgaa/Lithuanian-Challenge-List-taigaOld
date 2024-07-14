@@ -1,7 +1,7 @@
 const d = {
   "list": [
     {
-      "vids":
+      "vids": [
         {
           "user": "feit",
           "link": "",
