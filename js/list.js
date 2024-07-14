@@ -1,13 +1,7 @@
 const d = {
   "list": [
     {
-      "vids": [
-        {
-          "user": "SLICK DA GOAT",
-          "link": "",
-          "percent": 100,
-          "hz": ""
-        },
+      "vids":
         {
           "user": "feit",
           "link": "",
