@@ -992,6 +992,12 @@ const d = {
           "percent": 100,
           "hz": ""
         },
+        {
+          "user": "wagneris",
+          "link": "",
+          "percent": 100,
+          "hz": ""
+        },
       ],
       "name": "3 seconds RGB",
       "author": "TopHatMark [Algirdas42]",
