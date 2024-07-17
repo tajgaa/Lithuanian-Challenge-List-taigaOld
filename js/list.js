@@ -1578,6 +1578,12 @@ const d = {
           "percent": 100,
           "hz": ""
         },
+        {
+          "user": "wagneris",
+          "link": "",
+          "percent": 100,
+          "hz": ""
+        },
       ],
       "name": "Epilogas",
       "author": "bebras! [xtrapnationx]",
