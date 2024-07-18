@@ -58,7 +58,7 @@ export default {
                     </ul>
                     <div class="nong" v-if="level.NONG != undefined">
                         <a :href="level.NONG">
-                            <button><span class="type-label-lg">Atsisiųsti dainą</button>
+                            <button><span class="type-label-lg">Atsisiųsti dainą></button>
                         </a>
                     </div>
                     <h2>Rekordai</h2>
