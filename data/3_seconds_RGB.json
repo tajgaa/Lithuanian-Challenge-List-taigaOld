@@ -29,7 +29,11 @@
           "link": "",
           "percent": 100,
           "hz": ""
-        }
+        },
+        {
+            "user": "ArcticEggz",
+            "percent": 100
+          }
         
     ]
 }
