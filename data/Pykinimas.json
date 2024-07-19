@@ -70,6 +70,10 @@
         {
             "user": "S3N1",
             "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
         }
     ]
 }
