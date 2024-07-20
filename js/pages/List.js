@@ -112,7 +112,7 @@ export default {
               įeinant į lygį, turi parodyt ir tai)
                     </p>
                     <p>
-                        Po lygio iveikimo turi būti matomas "Level Complete" tekstas.
+                        Po lygio įveikimo turi būti matomas "Level Complete" tekstas.
                     </p>
                     <p>
                         Nenaudokit bug route'ų ir skipų, arba jei labai bugovas levelis tai bent naudokit kuo įmanoma mažiau.
