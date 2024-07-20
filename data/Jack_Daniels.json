@@ -42,6 +42,10 @@
         {
           "user": "ta1p",
           "percent": 100
-        }
+        },
+        {
+            "user": "Griance",
+            "percent": 100
+          }
     ]
 }
