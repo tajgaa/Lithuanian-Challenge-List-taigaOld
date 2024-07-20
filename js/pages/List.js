@@ -105,17 +105,17 @@ export default {
                     </template>
                     <h4>Completion'ų submittinimo taisyklės:</h4>
                     <p>
-                        Jis turi būti nufilmuotas ir su aiškiai girdimais clickais.
+                        Completion'as turi būti nufilmuotas ir su aiškiai girdimais clickais.
                     </p>
                     <p>
-                        Turi būti matoma mirtis prieš completiono attemptą. (jei sugebėjai įveikt per vieną attempt'ą po practice arba iškart
+                        Turi būti matoma mirtis prieš completion'o attempt'ą. (jei sugebėjai įveikt per vieną attempt'ą po practice arba iškart
               įeinant į lygį, turi parodyt ir tai)
                     </p>
                     <p>
                         Po lygio įveikimo turi būti matomas "Level Complete" tekstas.
                     </p>
                     <p>
-                        Nenaudokit bug route'ų ir skipų, arba jei labai bugovas levelis tai bent naudokit kuo įmanoma mažiau.
+                        Lygius pereikite kaip skirta. Jei skip/bug praleidžią didelę dalį lygio jūsų įveikimo tikrai nepriimsime.
                     </p>
                     <h4>Challenge'ų submittinimo taisyklės:</h4>
                     <p>
@@ -123,21 +123,20 @@ export default {
               tiek visually appealing. OBJEKTŲ SPAM =/= DEKORACIJA, nebent ji padaryta tinkamai (pavyzdžiui Slick Challenge
               series, Say Gex). Default layout blokus naudot galima, bet tada turi būti labai geros ir pilnai užpildytos
               struktūros, ir/arba normalesnė fono dekoracija. Ar jūsų lygio dekoracija gerai atrodo nusprendžia list
-              modai kolektyviai.
+              modai.
                     </p>
                     <p>
-                        Challenge turi būti originalus. Jis negali būti tiesiog pabuffinta arba/ir tik šiek tiek pakeista kito
-              challenge versija, ir negali būti kito lygio dalis, nesvarbu ar tas lygis išleistas ar ne.
+                        Challenge turi būti visiškai originalus.
                     </p>
                     <p>
                         Patvirtinimai turi būti keliami į YouTube. Ar viešas ar neįtrauktas į sąrašą, jau jūsų sprendimas.
                     </p>
                     <p>
-                        Jei daromas perdekoravimo atnaujinimas lygiui ir jis labai mažai pakeičia sunkumą arba išvis nekeičia,
-              patvirtinti iš naujo nebūtina.
+                        Jei lygis gauna update'ą ir jis labai mažai pakeičia arba išvis nekeičia sunkumo,
+              patvirtinti arba pereiti iš naujo nebūtina.
                     </p>
                     <p>
-                        Challenge turi būti pilnai lietuviškas - gameplay sukurtas lietuvio, dekoracija sukurta lietuvio. Tik
+                        Challenge turi būti pilnai lietuviškas - gameplay sukurtas lietuvio, dekoracija sukurta lietuvio. Tačiau
               patvirtinimas gali būti ne lietuvio.
                     </p>
                     <p>
