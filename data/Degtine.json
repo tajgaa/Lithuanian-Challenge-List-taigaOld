@@ -6,7 +6,7 @@
     "verifier": "Veikkies",
     "verification": "https://www.youtube.com/watch?v=btpTJom0uAw",
     "percentToQualify": "100",
-    "NONG": "https://cdn.discordapp.com/attachments/988770736355291138/1005496516426858506/54653.mp3?ex=669b2dda&is=6699dc5a&hm=117f5e2447538431d4f084a8fa710a26135a39e0ab28256d7aeacda84cbf9a24&",
+    "NONG": "data/NONGS/54653.mp3",
     "records": [
         {
           "user": "iDinamte",
