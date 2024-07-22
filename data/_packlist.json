@@ -6,7 +6,7 @@
             "grsas",
             "wtaer"
         ],
-        "colour": "url('https://cdn.discordapp.com/attachments/1263188821361557556/1263196146822676530/elments.png?ex=669aac16&is=66995a96&hm=3aafb5900ce614c2748766b24093c98ae3b88d8bc0ba62bb5373e556e0d8ed39&')"
+        "colour": "data/packicons/elments.png"
     },
   {
         "name": "pachmas",
@@ -15,7 +15,7 @@
             "TRIEDALAS",
             "myzalas"
         ],
-        "colour": "url('https://cdn.discordapp.com/attachments/1263188821361557556/1263189803181281340/pachmas.png?ex=669aa62e&is=669954ae&hm=8b6fa5abe65ff9babc7648eac69f16bfcc3932331c87607ac09d9450aa29fe76&')"
+        "colour": "data/packicons/pachmas.png"
     },
   {
         "name": "kamuoliukai",
