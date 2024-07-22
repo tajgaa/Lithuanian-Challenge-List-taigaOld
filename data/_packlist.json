@@ -6,7 +6,7 @@
             "grsas",
             "wtaer"
         ],
-        "colour": "img('data/packicons/elments.png')"
+        "colour": "src('data/packicons/elments.png')"
     },
   {
         "name": "pachmas",
