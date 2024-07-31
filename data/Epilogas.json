@@ -55,7 +55,11 @@
         {
             "user": "Griance",
             "percent": 100
-          }
+          },
+        {
+          "user": "Scizorz",
+          "percent": 100
+        }
         
     ]
 }
