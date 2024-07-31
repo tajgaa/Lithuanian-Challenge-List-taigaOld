@@ -26,6 +26,10 @@
         {
           "user": "ta1p",
           "percent": 100
+        },
+        {
+          "user": "taiga",
+          "percent": 100
         }
     ]
 }
