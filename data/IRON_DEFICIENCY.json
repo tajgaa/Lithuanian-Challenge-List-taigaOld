@@ -1,0 +1,16 @@
+{
+    "id": 108765084,
+    "name": "IRON DEFICIENCY",
+    "author": "Slick",
+    "creators": [],
+    "verifier": "Slick",
+    "verification": "https://www.youtube.com/watch?v=TXRN0AqYdIg",
+    "percentToQualify": "100",
+    "password": "",
+    "records": [
+        {
+            "user": "ta1p",
+            "percent": 100
+        }
+    ]
+}
