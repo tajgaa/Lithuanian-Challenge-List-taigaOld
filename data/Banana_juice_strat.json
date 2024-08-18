@@ -42,7 +42,11 @@
         {
             "user": "ArcticEggz",
             "percent": 100
-            }
+            },
+        {
+            "user": "danz",
+            "percent": 100
+        }
         
     ]
 }
