@@ -1,0 +1,19 @@
+{
+    "id": 109081005,
+    "name": "lemon",
+    "author": "ArcticEggz",
+    "creators": [],
+    "verifier": "ArcticEggz",
+    "verification": "https://youtu.be/0dGcxnhL0ds?si=1JJLxKQ_Zlq732xW",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "danz",
+            "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
+        }
+    ]
+}
