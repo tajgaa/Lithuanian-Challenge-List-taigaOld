@@ -41,6 +41,7 @@ export function score(rank){
     }
     else return 0;
 }
+}
 
 const scale = 2; //Select how many decimal digits to round to
 
