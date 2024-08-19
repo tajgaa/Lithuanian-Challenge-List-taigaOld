@@ -28,16 +28,16 @@ export function score(rank){
   //var top56_75Score = 56.191*(2^((78.147-(rank+3.2))((Math.log(50)/99))))-41.10949;
   if (rank >= 1){
     if(rank < 11){
-      return round(149.61*(1.137^(1-rank))+100.39);
+      return round(149.61*(1.137**(1-rank)) + 100.39);
     }
     else if(rank > 10 & rank <= 35){
-      return round(166.611*(1.0099685^(17-rank))-31.152);
+      return round(166.611*(1.0099685**(17-rank)) - 31.152);
     }
     else if (rank > 35 & rank <= 55){
-      return round(212.61*(1.036^(14-rank))+6.071);
+      return round(212.61*(1.036**(14-rank)) + 6.071);
     }
     else if (rank > 55 & rank <= 75){
-      return round(56.191*(2^((78.147-(rank+3.2))((Math.log(50)/99))))-41.10949);
+      return round(56.191*(2**((78.147 - (rank + 3.2))*(Math.log(50)/99)))-41.10949);
     }
     else return 0;
 }
