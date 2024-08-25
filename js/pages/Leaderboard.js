@@ -108,7 +108,7 @@ export default {
 
                             <!--Verified levels-->
                             <div class="extra">
-                                <h2>Patvirtinti challenge'ai ({{entry.verifiedLevels.length}})</h2>
+                                <h2>Patvirtinti challenge'ai</h2>
                                 <template v-if="entry.verifiedLevels.length > 0">
                                     <div class="levels">
                                         <template v-for="(score, index) in entry.verifiedLevels">
