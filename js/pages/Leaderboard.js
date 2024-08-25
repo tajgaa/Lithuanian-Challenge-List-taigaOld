@@ -55,10 +55,6 @@ export default {
                         <h2 v-if="entry.createdLevels.length > 0">Sukurti challenge'ai({{ entry.createdLevels.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.createdLevels">
-                                <td class="rank">
-                                    <p v-if="i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
-                                    <p v-else class="type-label-lg">Legacy</p>
-                                </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
@@ -68,7 +64,7 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.verifiedLevels">
                                 <td class="rank">
-                                    <p v-if="i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-if="score.rank <= 75" class="type-label-lg">#{{ score.rank }}</p>
                                     <p v-else class="type-label-lg">Legacy</p>
                                 </td>
                                 <td class="level">
@@ -83,7 +79,7 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completedLevels">
                                 <td class="rank">
-                                    <p v-if="i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-if="score.rank <= 75" class="type-label-lg">#{{ score.rank }}</p>
                                     <p v-else class="type-label-lg">Legacy</p>
                                 </td>
                                 <td class="level">
