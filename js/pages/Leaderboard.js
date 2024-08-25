@@ -64,7 +64,7 @@ export default {
                         <template v-if="entry.createdLevels.length > 0">
                             <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
                             <div class="levels">
-                                <template v-for="score in entry.createdLevels">
+                                <template v-for="(score, index) in entry.createdLevels">
                                     <div class="level-display">
                                         <template :style="{font-weight:bold}" v-if="score.rank <= 75">
                                             <a :href="score.link">{{ score.level }}</a>
