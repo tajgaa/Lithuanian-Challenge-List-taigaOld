@@ -110,9 +110,11 @@
     flex-shrink: 0;
     background-size: 100% 100% !important;
 }
-.page-leaderboard .player .levels .tag {
+.page-leaderboard .player .levels .level-display {
+    font-family: "Lexend Deca", sans-serif;
     display: flex;
-    flex-shrink: 0;
+    text-shadow: 2px 2px 4px black;
+    padding: 10px;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
