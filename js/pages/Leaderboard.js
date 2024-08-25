@@ -82,10 +82,10 @@ export default {
                             </template>
                         </template>
 
-                        <div>
+                        <div class:"extra">
                         
                         <!--Created levels-->
-                        <div class:"extra">
+                        <div>
                             <h2>Sukurti challenge'ai</h2>
                             <template v-if="entry.createdLevels.length > 0">
                                 <div class="levels">
@@ -108,7 +108,7 @@ export default {
                         </div>
 
                         <!--Verified levels-->
-                        <div class:"extra">
+                        <div>
                              <h2>Patvirtinti challenge'ai ({{entry.verifiedLevels.length}})</h2>
                             <template v-if="entry.verifiedLevels.length > 0">
                                 <div class="levels">
