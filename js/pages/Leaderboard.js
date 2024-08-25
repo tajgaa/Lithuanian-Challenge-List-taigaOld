@@ -59,15 +59,15 @@ export default {
                         </div>
 
                         <!--Created levels-->
-                        <template v-if="entry.createdLevels.length > 0>
+                        <template v-if="entry.createdLevels.length > 0">
                             <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
                             <div class="levels">
                                 <template v-for="level in entry.createdLevels">
                                     <div v-if="level.rank <= 75">
-                                    <strong>{{level.name}}</strong>
+                                        <strong>{{level.name}}</strong>
                                     </div>
                                     <div v-else>
-                                    {{level.name}}
+                                        {{level.name}}
                                     </div>
                                 </template>
                             </div>
