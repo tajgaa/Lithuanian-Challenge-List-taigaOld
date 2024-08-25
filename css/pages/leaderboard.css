@@ -119,6 +119,10 @@
     text-shadow: 2px 2px 4px black;
     padding: 3px;
 }
+.page-leaderboard .player .stats-container .extra{
+    margin-left: 12%;
+    margin-right: 12%;
+}
 .page-leaderboard .player .stats-container {
     display: inline-flex;
     flex-wrap: wrap;
