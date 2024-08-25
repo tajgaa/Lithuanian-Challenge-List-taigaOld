@@ -96,8 +96,7 @@
     justify-content: center;
 }
 
-.page-leaderboard .player .levels,
-.page-leaderboard .player .extra .levels {
+.page-leaderboard .player .levels{
     display: flex;
     flex-wrap: wrap;
     gap: 0.3em;
@@ -108,8 +107,7 @@
     scale: 1.1;
     justify-content: center;
 }
-.page-leaderboard .player .levels .level-display,
-.page-leaderboard .player .extra .levels .level-display
+.page-leaderboard .player .levels .level-display
  {
     font-family: "Lexend Deca", sans-serif;
     display: flex;
@@ -119,7 +117,7 @@
 .page-leaderboard .player .extra {
     display: inline-flex;
     flex-wrap: wrap;
-    
+
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
