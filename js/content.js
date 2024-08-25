@@ -64,7 +64,7 @@ export async function fetchLeaderboard() {
 
         // Creators
         const creators = [];
-        if(level.creators != null){
+        if(level.creators.length != 0){
             const creators = level.creators;
         }
         else{
