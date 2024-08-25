@@ -70,6 +70,7 @@
     flex-direction: column;
     gap: 2rem;
     padding-right: 2rem;
+    text-align: center;
 }
 .page-leaderboard .player .table {
     table-layout: fixed;

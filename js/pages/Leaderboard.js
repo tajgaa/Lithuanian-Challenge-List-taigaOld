@@ -46,9 +46,8 @@ export default {
 
                 
                 <div class="player-container">
+                    <h1>#{{ selected + 1 }} {{ entry.user }}</h1> <h3>{{ entry.total }}</h3>
                     <div class="player">
-
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1> <h3>{{ entry.total }}</h3>
 
                         <!--Completed packs-->
                         <template v-if="entry.packsComplete.length > 0">
