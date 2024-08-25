@@ -96,7 +96,8 @@
     justify-content: center;
 }
 
-.page-leaderboard .player .levels{
+.page-leaderboard .player .levels,
+.page-leaderboard .player .personal .extra .levels{
     display: flex;
     flex-wrap: wrap;
     gap: 0.3em;
@@ -107,14 +108,23 @@
     scale: 1.1;
     justify-content: center;
 }
-.page-leaderboard .player .levels .level-display
+.page-leaderboard .player .levels .level-display,
+.page-leaderboard .player .personal .extra .levels .level-display
  {
     font-family: "Lexend Deca", sans-serif;
     display: flex;
     text-shadow: 2px 2px 4px black;
     padding: 3px;
 }
-.page-leaderboard .player .extra {
+.page-leaderboard .player .personal {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.page-leaderboard .player .personal .extra {
     display: inline-flex;
     flex-wrap: wrap;
 

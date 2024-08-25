@@ -83,10 +83,10 @@ export default {
                         </template>
                         
                         <div class="personal">
-                            <div class=""
                         <!--Created levels-->
-                        <h2>Sukurti challenge'ai</h2>
-                        <template v-if="entry.createdLevels.length > 0">
+                            <div class="extra">
+                            <h2>Sukurti challenge'ai</h2>
+                            <template v-if="entry.createdLevels.length > 0">
                             <div class="levels">
                                 <template v-for="(score, index) in entry.createdLevels">
                                     <div class="level-display">
@@ -100,10 +100,11 @@ export default {
                                     <div v-if="index !== entry.createdLevels.length - 1" class="level-display">-</div>
                                 </template>
                             </div>
-                        </template>
-                        <template v-else>
-                            <div class="levels" style:"opacity:70%">Nieko</div>
-                        </template>
+                            </template>
+                            <template v-else>
+                                <div class="levels" style:"opacity:70%">Nieko</div>
+                            </template>
+                            </div>
 
 
                         <!--Verified levels-->
