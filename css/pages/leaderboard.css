@@ -98,7 +98,7 @@
 
 .page-leaderboard .player .levels {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: 
     gap: 0.3em;
     margin-left: 12%;
     margin-right: 12%;
