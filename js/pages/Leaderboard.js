@@ -42,6 +42,7 @@ export default {
                         </tr>
                     </table>
                 </div>
+                
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
@@ -52,6 +53,7 @@ export default {
                             {{pack.name}}
                             </div>
                         </div>
+
                         <h2 v-if="entry.createdLevels.length > 0">Sukurti challenge'ai({{ entry.createdLevels.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.createdLevels">
@@ -64,6 +66,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
+
                         <h2 v-if="entry.verifiedLevels.length > 0">Patvirtinti challenge'ai({{ entry.verifiedLevels.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verifiedLevels">
@@ -79,6 +82,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
+
                         <h2 v-if="entry.completedLevels.length > 0">Įveikti challenge'ai ({{ entry.completedLevels.length }})</h2>
                         <table class="table">
                             <tr v-for="score in entry.completedLevels">
