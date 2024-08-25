@@ -63,7 +63,13 @@ export async function fetchLeaderboard() {
         }
 
         // Creators
-        const creators = level.creators;
+        const creators = [];
+        if(level.creators === null){
+            const creators = level.author;
+        }
+        else{
+            creators.push(level.author);
+        }
         creators.forEach(creator => {
             player[creator] ??= {
             createdLevels: [],
