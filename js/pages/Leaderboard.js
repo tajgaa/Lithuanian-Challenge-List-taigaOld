@@ -52,7 +52,7 @@ export default {
                             {{pack.name}}
                             </div>
                         </div>
-                        <h2 v-if="entry.createdLevels.length > 0">Sukurti challenge'ai({{ entry.verifiedLevels.length}})</h2>
+                        <h2 v-if="entry.createdLevels.length > 0">Sukurti challenge'ai({{ entry.createdLevels.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.createdLevels">
                                 <td class="rank">
