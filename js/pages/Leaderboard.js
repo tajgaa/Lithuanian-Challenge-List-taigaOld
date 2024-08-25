@@ -73,7 +73,7 @@ export default {
                                             <a :href="score.link">{{ score.level }}</a>
                                         </template>
                                     </div>
-                                    <div v-if:"entry.createdLevels[index+1] !== null"> - </div>
+                                    <div v-if="entry.createdLevels[index+1] !== null"> - </div>
                                 </template>
                             </div>
                         </template>
