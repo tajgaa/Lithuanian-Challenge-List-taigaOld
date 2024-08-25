@@ -63,13 +63,7 @@ export async function fetchLeaderboard() {
         }
 
         // Creators
-        const creators = [];
-        if(level.creators.length != 0){
-            const creators = level.creators;
-        }
-        else{
-            creators.push(level.author);
-        }
+        const creators = level.creators;
         creators.forEach(creator => {
             player[creator] ??= {
             createdLevels: [],
@@ -77,7 +71,6 @@ export async function fetchLeaderboard() {
             completedLevels: [],
             packsComplete: [],
             };
-
             const {createdLevels} = player[creator];
 
             createdLevels.push({
