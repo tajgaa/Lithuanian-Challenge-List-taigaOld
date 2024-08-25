@@ -60,59 +60,65 @@ export default {
                             </div>
                         </template>
 
-                        <!--Created levels-->
-                        <template v-if="entry.createdLevels.length > 0">
-                            <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
-                            <div class="levels">
-                                <template v-for="(score, index) in entry.createdLevels">
-                                    <div class="level-display">
-                                        <template v-if="score.rank <= 75">
-                                            <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                        <template v-else>
-                                            <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                    </div>
-                                    <div v-if="index !== entry.createdLevels.length - 1" class="level-display">-</div>
-                                </template>
-                            </div>
-                        </template>
-
-                        <!--Verified levels-->
-                        <template v-if="entry.verifiedLevels.length > 0">
-                            <h2>Patvirtinti challenge'ai ({{entry.verifiedLevels.length}})</h2>
-                            <div class="levels">
-                                <template v-for="(score, index) in entry.verifiedLevels">
-                                    <div class="level-display">
-                                        <template v-if="score.rank <= 75">
-                                            <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                        <template v-else>
-                                            <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                    </div>
-                                    <div v-if="index !== entry.verifiedLevels.length - 1" class="level-display">-</div>
-                                </template>
-                            </div>
-                        </template>
-
                         <!--Completed levels-->
-                        <template v-if="entry.completedLevels.length > 0">
                             <h2>Įveikti challenge'ai ({{entry.completedLevels.length}})</h2>
-                            <div class="levels">
-                                <template v-for="(score, index) in entry.completedLevels">
-                                    <div class="level-display">
-                                        <template v-if="score.rank <= 75">
-                                            <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                        <template v-else>
-                                            <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                    </div>
-                                    <div v-if="index !== entry.completedLevels.length - 1" class="level-display">-</div>
-                                </template>
-                            </div>
+                            <template v-if="entry.completedLevels.length > 0">
+                                <div class="levels">
+                                    <template v-for="(score, index) in entry.completedLevels">
+                                        <div class="level-display">
+                                            <template v-if="score.rank <= 75">
+                                                <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                            <template v-else>
+                                                <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                        </div>
+                                        <div v-if="index !== entry.completedLevels.length - 1" class="level-display">-</div>
+                                    </template
+                                </div>
+                            </template>
+                            <template v-else>
+                                <div class="levels" style:"opacity:70%">Nieko</div>
+                            </template>
                         </template>
+
+                        <!--Created levels-->
+                        <div>
+                            <template v-if="entry.createdLevels.length > 0">
+                                <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
+                                <div class="levels">
+                                    <template v-for="(score, index) in entry.createdLevels">
+                                        <div class="level-display">
+                                            <template v-if="score.rank <= 75">
+                                                <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                            <template v-else>
+                                                <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                        </div>
+                                        <div v-if="index !== entry.createdLevels.length - 1" class="level-display">-</div>
+                                    </template>
+                                </div>
+                            </template>
+
+                            <!--Verified levels-->
+                            <template v-if="entry.verifiedLevels.length > 0">
+                                <h2>Patvirtinti challenge'ai ({{entry.verifiedLevels.length}})</h2>
+                                <div class="levels">
+                                    <template v-for="(score, index) in entry.verifiedLevels">
+                                        <div class="level-display">
+                                            <template v-if="score.rank <= 75">
+                                                <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                            <template v-else>
+                                                <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                        </div>
+                                        <div v-if="index !== entry.verifiedLevels.length - 1" class="level-display">-</div>
+                                    </template>
+                                </div>
+                            </template>
+                        </div>
                     </div>
                 </div>
             </div>
