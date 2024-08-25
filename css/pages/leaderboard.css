@@ -99,8 +99,8 @@
     justify-content: center;
 }
 
-.page-leaderboard .player .levels,
-.page-leaderboard .player .personal .extra .levels{
+.page-leaderboard .player .stats-container .levels,
+.page-leaderboard .player .stats-container .extra .levels{
     display: flex;
     flex-wrap: wrap;
     gap: 0.3em;
@@ -108,7 +108,7 @@
     margin-right: 12%;
     margin-top: 15px;
     margin-bottom: 15px;
-    scale: 0.8;
+    scale: 1;
     justify-content: center;
 }
 .page-leaderboard .player .stats-container .levels .level-display,
@@ -124,7 +124,7 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1;
-    gap: 2.5em;
+    gap: 1em;
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
