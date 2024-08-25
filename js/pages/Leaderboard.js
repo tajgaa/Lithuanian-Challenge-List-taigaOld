@@ -83,7 +83,7 @@ export default {
                         </template>
 
                         <!--Created levels-->
-                        <div style:"display:flex; flex-wrap:wrap;>
+                        <div style:"display:block; flex-wrap:wrap; width: 40%;">
 
                             <!--Created levels-->
                             <div>
