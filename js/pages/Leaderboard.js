@@ -51,22 +51,28 @@ export default {
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1> <h3>{{ entry.total }}</h3>
 
                         <!--Completed packs-->
-                        <h2 v-if="entry.packsComplete.length > 0">Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
-                        <div class="packs" v-if="entry.packsComplete.length > 0">
-                            <div v-for="pack in entry.packsComplete" class="tag" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
-                            {{pack.name}}
+                        <template v-if="entry.packsComplete.length > 0">
+                            <h2>Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
+                            <div class="packs" v-for="pack in entry.packsComplete">
+                                <div class="tag" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
+                                {{pack.name}}
+                                </div>
                             </div>
-                        </div>
+                        </template>
 
                         <!--Created levels-->
                         <template v-if="entry.createdLevels.length > 0">
                             <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
                             <div class="levels" v-for="score in entry.createdLevels">
                                 <template v-if="score.rank <= 75">
-                                    <strong>{{score.level}}</strong>
+                                    <div class="tag">
+                                        <strong>{{score.level}}</strong>
+                                    </div>
                                 </template>
                                 <template v-else>
-                                    {{score.level}}
+                                    <div class="tag">
+                                        {{score.level}}
+                                    </div>
                                 </template>
                             </div>
                         </template>

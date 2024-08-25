@@ -102,10 +102,15 @@
     gap: 0.3em;
     margin-left: 12%;
     margin-right: 12%;
-    scale: 1.2;
+    scale: 1.4;
     justify-content: center;
 }
 .page-leaderboard .player .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+}
+.page-leaderboard .player .levels .tag {
     display: flex;
     flex-shrink: 0;
     background-size: 100% 100% !important;
