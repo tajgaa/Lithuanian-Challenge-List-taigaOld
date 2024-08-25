@@ -50,6 +50,7 @@ export default {
                     <div class="player">
 
                         <!--Completed packs-->
+                        <div class="stats-container">
                         <template v-if="entry.packsComplete.length > 0">
                             <h2>Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
                             <div class="packs">
@@ -58,8 +59,10 @@ export default {
                                 </div>
                             </div>
                         </template>
+                        </div>
 
                         <!--Completed levels-->
+                        <div class="stats-container">
                         <h2>Įveikti challenge'ai</h2>
                         <template v-if="entry.completedLevels.length > 0">
                             <div class="levels">
@@ -79,8 +82,9 @@ export default {
                         <template v-else>
                             <div class="levels" style:"opacity:70%">Nieko</div>
                         </template>
+                        </div>
                         
-                        <div class="personal">
+                        <div class="stats-container">
 
                             <!--Created levels-->
                             <div class="extra">

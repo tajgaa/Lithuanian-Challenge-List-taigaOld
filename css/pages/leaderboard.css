@@ -125,9 +125,9 @@
     margin-bottom: 15px;
 
 }
-.page-leaderboard .player .personal .extra {
+.page-leaderboard .player .stats-container {
     flex-wrap: wrap;
-    width:50%;
+    flex-grow: 1;
     gap: 2.5em;
 }
 .page-leaderboard .player .packs .tag {
