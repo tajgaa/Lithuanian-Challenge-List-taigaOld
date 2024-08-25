@@ -63,19 +63,23 @@ export async function fetchLeaderboard() {
         }
 
         // Creators
-        const creators = Object.keys(player).find((u) => u.toLowerCase() === level.creators.toLowerCase(),) || level.creators;
-        player[creators] ??= {
+        const creators = level.creators;
+        creators.forEach(creator => {
+            player[creator] ??= {
             createdLevels: [],
             verifiedLevels: [],
             completedLevels: [],
             packsComplete: [],
-        };
-        const {createdLevels} = player[creator];
-        createdLevels.push({
-            rank: rank + 1,
-            level: level.name,
-            link: level.verification,
-            path: level.path
+            };
+
+            const {createdLevels} = player[creator];
+
+            createdLevels.push({
+                rank: rank + 1,
+                level: level.name,
+                link: level.verification,
+                path: level.path
+            });
         });
 
         // Verification
