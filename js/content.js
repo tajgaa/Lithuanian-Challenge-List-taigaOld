@@ -62,11 +62,28 @@ export async function fetchLeaderboard() {
             return;
         }
 
+        // Creators
+        const creators = Object.keys(player).find((u) => u.toLowerCase() === level.creators.toLowerCase(),) || level.creators;
+        player[creators] ??= {
+            createdLevels: [],
+            verifiedLevels: [],
+            completedLevels: [],
+            packsComplete: [],
+        };
+        const {createdLevel } = player[creator];
+        createdLevels.push({
+            rank: rank + 1,
+            level: level.name,
+            link: level.verification,
+            path: level.path
+        });
+
         // Verification
         const verifier = Object.keys(player).find(
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
         ) || level.verifier;
         player[verifier] ??= {
+            createdLevels: [],
             verifiedLevels: [],
             completedLevels: [],   
             packsComplete: [],
@@ -86,8 +103,9 @@ export async function fetchLeaderboard() {
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
             ) || record.user;
             player[user] ??= {
+                createdLevels: [],
                 verifiedLevels: [],
-                completedLevels: [],          
+                completedLevels: [],   
                 packsComplete: [],
             };
             const { completedLevels } = player[user];
