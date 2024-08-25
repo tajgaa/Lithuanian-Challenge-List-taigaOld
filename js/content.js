@@ -136,6 +136,11 @@ export async function fetchLeaderboard() {
                 user[1]["packsComplete"].push(pack);
             }
         }
+        user[1]["packsComplete"].sort((a, b) => a.name.localeCompare(b.name));
+        user[1]["verifiedLevels"].sort((a, b) => a.name.localeCompare(b.name));
+        user[1]["completedLevels"].sort((a, b) => a.name.localeCompare(b.name));
+        user[1]["createdComplete"].sort((a, b) => a.name.localeCompare(b.name));
+        
     }
 
     // Wrap in extra Object containing the user and total score
