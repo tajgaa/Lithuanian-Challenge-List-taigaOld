@@ -72,7 +72,7 @@ export default {
                                         <a target="_blank" :href="score.link">{{ score.level }}</a>
                                     </div>
                                     <div v-if:"entry.createdLevels[index-1] != null">
-                                    <b>-</b>
+                                    " - "
                                     </div>
                                 </div>
                             </div>
