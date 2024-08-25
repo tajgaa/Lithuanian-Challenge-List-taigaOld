@@ -114,7 +114,7 @@
     font-family: "Lexend Deca", sans-serif;
     display: flex;
     text-shadow: 2px 2px 4px black;
-    padding: 5px;
+    padding: 3px;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
