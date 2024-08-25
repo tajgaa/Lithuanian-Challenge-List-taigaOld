@@ -137,41 +137,41 @@ export async function fetchLeaderboard() {
             }
         }
         user[1]["packsComplete"].sort(function (a, b) {
-            if (a.name < b.name) {
-              return -1;
-            }
-            if (a.name > b.name) {
-              return 1;
-            }
-            return 0;
-          });
+            if (a.name.toLowerCase() < b.name.toLowerCase()) {
+                return -1;
+              }
+              if (a.name.toLowerCase() > b.name.toLowerCase()) {
+                return 1;
+              }
+              return 0;
+            });
         user[1]["verifiedLevels"].sort(function (a, b) {
-            if (a.name < b.name) {
-              return -1;
-            }
-            if (a.name > b.name) {
-              return 1;
-            }
-            return 0;
-          });
+            if (a.name.toLowerCase() < b.name.toLowerCase()) {
+                return -1;
+              }
+              if (a.name.toLowerCase() > b.name.toLowerCase()) {
+                return 1;
+              }
+              return 0;
+            });
         user[1]["completedLevels"].sort(function (a, b) {
-            if (a.name < b.name) {
+            if (a.name.toLowerCase() < b.name.toLowerCase()) {
               return -1;
             }
-            if (a.name > b.name) {
+            if (a.name.toLowerCase() > b.name.toLowerCase()) {
               return 1;
             }
             return 0;
           });
         user[1]["createdComplete"].sort(function (a, b) {
-            if (a.name < b.name) {
-              return -1;
-            }
-            if (a.name > b.name) {
-              return 1;
-            }
-            return 0;
-          });
+            if (a.name.toLowerCase() < b.name.toLowerCase()) {
+                return -1;
+              }
+              if (a.name.toLowerCase() > b.name.toLowerCase()) {
+                return 1;
+              }
+              return 0;
+            });
         
     }
 
