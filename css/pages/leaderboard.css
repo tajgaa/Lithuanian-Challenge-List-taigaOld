@@ -65,11 +65,10 @@
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
-.page-leaderboard .player,
-.page-leaderboard .player .personal .extra {
+.page-leaderboard .player{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 3rem;
     padding-right: 2rem;
     text-align: center;
 }
@@ -128,7 +127,8 @@
 }
 .page-leaderboard .player .personal .extra {
     flex-wrap: wrap;
-    width:40%;
+    width:50%;
+    gap: 2.5em;
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
