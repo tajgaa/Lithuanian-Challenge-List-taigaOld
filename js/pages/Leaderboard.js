@@ -73,7 +73,7 @@ export default {
                                             <a :style="{font-style:italic, opacity: 60%}" :href="score.link">{{ score.level }}</a>
                                         </template>
                                     </div>
-                                    <b v-if="entry.createdLevels[index] !== null" class="level-display"> - </b>
+                                    <h3 v-if="entry.createdLevels[index] !== null" class="level-display"> - </h3>
                                 </template>
                             </div>
                         </template>
