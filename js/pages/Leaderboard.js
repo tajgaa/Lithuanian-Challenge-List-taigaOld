@@ -52,7 +52,7 @@ export default {
                         <!--Completed packs-->
                         <div class="stats-container">
                         <template v-if="entry.packsComplete.length > 0">
-                            <h2 style="padding:20px;">Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
+                            <h2 style="padding:5px; width:100%">Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
                             <div class="packs">
                                 <div class="tag" v-for="pack in entry.packsComplete" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
                                 {{pack.name}}
@@ -63,7 +63,7 @@ export default {
 
                         <!--Completed levels-->
                         <div class="stats-container">
-                        <h2 style="padding:20px;">Įveikti challenge'ai</h2>
+                        <h2 style="padding:5px; width:100%">Įveikti challenge'ai</h2>
                         <template v-if="entry.completedLevels.length > 0">
                             <div class="levels">
                                 <template v-for="(score, index) in entry.completedLevels">
@@ -88,7 +88,7 @@ export default {
 
                             <!--Created levels-->
                             <div class="extra">
-                                <h2 style="padding:20px;">Sukurti challenge'ai</h2>
+                                <h2 style="padding:5px; width:100%">Sukurti challenge'ai</h2>
                                 <template v-if="entry.createdLevels.length > 0">
                                     <div class="levels">
                                         <template v-for="(score, index) in entry.createdLevels">
@@ -112,7 +112,7 @@ export default {
 
                             <!--Verified levels-->
                             <div class="extra">
-                                <h2 style="padding:20px;">Patvirtinti challenge'ai</h2>
+                                <h2 style="padding:5px; width:100%">Patvirtinti challenge'ai</h2>
                                 <template v-if="entry.verifiedLevels.length > 0">
                                     <div class="levels">
                                         <template v-for="(score, index) in entry.verifiedLevels">
