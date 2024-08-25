@@ -51,8 +51,8 @@ export default {
 
                         <!--Completed packs-->
                         <div class="stats-container">
+                            <h2 style="padding:5px; width:100%">Įveikti pakeliai</h2>
                             <template v-if="entry.packsComplete.length > 0">
-                                <h2 style="padding:5px; width:100%">Įveikti pakeliai</h2>
                                 <div class="packs">
                                     <div class="tag" v-for="pack in entry.packsComplete" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
                                     {{pack.name}}
@@ -61,7 +61,7 @@ export default {
                             </template>
                             <template v-else>
                                 <div class="packs">
-                                    <div class="tag" style="opacity:70%"> Nieko</div>
+                                    <div class="tag" style="opacity:70%; background-color:transparent;"> Nieko</div>
                                 </div>
                             </template>
                         </div>
