@@ -68,7 +68,7 @@
 .page-leaderboard .player {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     padding-right: 2rem;
     text-align: center;
 }
@@ -126,8 +126,8 @@
 
 }
 .page-leaderboard .player .personal .extra {
-    display: inline-flex;
     flex-wrap: wrap;
+    width:40%;
 
 }
 .page-leaderboard .player .packs .tag {
