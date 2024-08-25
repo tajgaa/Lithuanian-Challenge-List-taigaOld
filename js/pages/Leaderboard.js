@@ -46,7 +46,7 @@ export default {
 
                 
                 <div class="player-container">
-                    <h1 style="padding:2em;">#{{ selected + 1 }} {{ entry.user }}</h1> <h3 style="padding:2em;">{{ entry.total }}</h3>
+                    <h1 style="padding:20px;">#{{ selected + 1 }} {{ entry.user }}</h1> <h3 style="padding:15px;">{{ entry.total }}</h3>
                     <div class="player">
 
                         <!--Completed packs-->
