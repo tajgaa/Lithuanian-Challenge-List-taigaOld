@@ -53,8 +53,8 @@ export default {
                         <!--Completed packs-->
                         <template v-if="entry.packsComplete.length > 0">
                             <h2>Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
-                            <div class="packs" v-for="pack in entry.packsComplete">
-                                <div class="tag" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
+                            <div class="packs">
+                                <div class="tag" v-for="pack in entry.packsComplete" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
                                 {{pack.name}}
                                 </div>
                             </div>
@@ -64,15 +64,12 @@ export default {
                         <template v-if="entry.createdLevels.length > 0">
                             <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
                             <div class="levels" v-for="score in entry.createdLevels">
+                                <div v-for="score in entry.createdLevels" class="tag">
                                 <template v-if="score.rank <= 75">
-                                    <div class="tag">
-                                        <strong>{{score.level}}</strong>
-                                    </div>
+                                    <strong>{{score.level}}</strong>
                                 </template>
                                 <template v-else>
-                                    <div class="tag">
-                                        {{score.level}}
-                                    </div>
+                                    {{score.level}}
                                 </template>
                             </div>
                         </template>
