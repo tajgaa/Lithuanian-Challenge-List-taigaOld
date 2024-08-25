@@ -136,6 +136,27 @@ export async function fetchLeaderboard() {
                 user[1]["packsComplete"].push(pack);
             }
         }
+        user[1]["packsComplete"].sort(function (a, b) {
+            let nameA = a.name;
+            let nameB = b.name;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
+            });
+        user[1]["verifiedLevels"].sort(function (a, b) {
+            let nameA = a.level;
+            let nameB = b.level;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
+            });
+        user[1]["completedLevels"].sort(function (a, b) {
+            let nameA = a.level;
+            let nameB = b.level;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
+          });
+        user[1]["createdLevels"].sort(function (a, b) {
+            let nameA = a.level;
+            let nameB = b.level;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
+            });
+        
     }
 
     // Wrap in extra Object containing the user and total score
