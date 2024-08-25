@@ -95,7 +95,7 @@
     margin-right: 12%;
     margin-top: 15px;
     margin-bottom: 15px;
-    scale: 0.9;
+    scale: 1.2;
     justify-content: center;
 }
 
@@ -120,11 +120,14 @@
     padding: 3px;
 }
 .page-leaderboard .player .stats-container {
-    display: block;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1;
-    row-gap: 15%;
+    column-gap: 15%;
+}
+.page-leaderboard .player .stats-container .extra {
+    width:40%;
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
