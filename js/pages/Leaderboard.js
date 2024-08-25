@@ -25,6 +25,7 @@ export default {
                         Žaidėjų sąrašas yra klaidingas, nes trūksta šių lygių: {{ err.join(', ') }}
                     </p>
                 </div>
+
                 <div class="board-container">
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
@@ -42,11 +43,14 @@ export default {
                         </tr>
                     </table>
                 </div>
+
                 
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h3>{{ entry.total }}</h3>
+
+                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1> <h3>{{ entry.total }}</h3>
+
+                        <!--Completed packs-->
                         <h2 v-if="entry.packsComplete.length > 0">Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
                         <div class="packs" v-if="entry.packsComplete.length > 0">
                             <div v-for="pack in entry.packsComplete" class="tag" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
@@ -54,20 +58,23 @@ export default {
                             </div>
                         </div>
 
-                        <h2 v-if="entry.createdLevels.length > 0">Sukurti challenge'ai({{ entry.createdLevels.length}})</h2>
-                        <table class="table">
-                            <tr v-for="score in entry.createdLevels">
-                                <td class="rank">
-                                    <p v-if="score.rank <= 75" class="type-label-lg">#{{ score.rank }}</p>
-                                    <p v-else class="type-label-lg">Legacy</p>
-                                </td>
-                                <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                            </tr>
-                        </table>
+                        <!--Created levels-->
+                        <template v-if="entry.createdLevels.length > 0>
+                            <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
+                            <div class="levels">
+                                <template v-for="level in entry.createdLevels">
+                                    <div v-if="level.rank <= 75">
+                                    <strong>{{level.name}}</strong>
+                                    </div>
+                                    <div v-else>
+                                    {{level.name}}
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
 
-                        <h2 v-if="entry.verifiedLevels.length > 0">Patvirtinti challenge'ai({{ entry.verifiedLevels.length}})</h2>
+                        <!--Verified levels-->
+                        <h2 v-if="entry.verifiedLevels.length > 0">Patvirtinti challenge'ai ({{ entry.verifiedLevels.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verifiedLevels">
                                 <td class="rank">
@@ -83,6 +90,7 @@ export default {
                             </tr>
                         </table>
 
+                        <!--Completed levels-->
                         <h2 v-if="entry.completedLevels.length > 0">Įveikti challenge'ai ({{ entry.completedLevels.length }})</h2>
                         <table class="table">
                             <tr v-for="score in entry.completedLevels">
