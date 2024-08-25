@@ -85,7 +85,9 @@ export default {
                             </div>
                         </template>
                         <template v-else>
-                            <div class="levels" style="opacity:70%">Nieko</div>
+                            <div class="levels">
+                                <div class="level-display" style="opacity:70%">Nieko</div>
+                            </div>
                         </template>
                         </div>
                         
@@ -110,7 +112,9 @@ export default {
                                     </div>
                                 </template>
                                 <template v-else>
-                                    <div class="levels" style="opacity:70%">Nieko</div>
+                                    <div class="levels">
+                                        <div class="level-display" style="opacity:70%">Nieko</div>
+                                    </div>
                                 </template>
                             </div>
 
@@ -134,7 +138,9 @@ export default {
                                     </div>
                                 </template>
                                 <template v-else>
-                                    <div class="levels" style="opacity:70%">Nieko</div>
+                                    <div class="levels">
+                                        <div class="level-display" style="opacity:70%">Nieko</div>
+                                    </div>
                                 </template>
                             </div>
 
