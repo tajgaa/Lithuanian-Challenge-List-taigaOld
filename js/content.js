@@ -70,7 +70,7 @@ export async function fetchLeaderboard() {
             completedLevels: [],
             packsComplete: [],
         };
-        const {createdLevel } = player[creator];
+        const {createdLevels} = player[creator];
         createdLevels.push({
             rank: rank + 1,
             level: level.name,
