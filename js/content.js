@@ -142,18 +142,18 @@ export async function fetchLeaderboard() {
             return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
             });
         user[1]["verifiedLevels"].sort(function (a, b) {
-            let nameA = a.name;
-            let nameB = b.name;
+            let nameA = a.level;
+            let nameB = b.level;
             return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
             });
         user[1]["completedLevels"].sort(function (a, b) {
-            let nameA = a.name;
-            let nameB = b.name;
+            let nameA = a.level;
+            let nameB = b.level;
             return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
           });
         user[1]["createdLevels"].sort(function (a, b) {
-            let nameA = a.name;
-            let nameB = b.name;
+            let nameA = a.level;
+            let nameB = b.level;
             return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
             });
         
