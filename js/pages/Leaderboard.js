@@ -61,7 +61,7 @@ export default {
                         <!--Created levels-->
                         <template v-if="entry.createdLevels.length > 0">
                             <h2>Sukurti challenge'ai ({{entry.createdLevels.length}})</h2>
-                            <div class="levels" v-for="level in entry.createdLevels>
+                            <div class="levels" v-for="level in entry.createdLevels">
                                 <template v-if="level.rank <= 75">">
                                     <strong>{{level.name}}</strong>
                                 </template>
