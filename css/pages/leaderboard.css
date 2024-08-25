@@ -96,7 +96,8 @@
     justify-content: center;
 }
 
-.page-leaderboard .player .levels {
+.page-leaderboard .player .levels,
+.page-leaderboard .player .extra .levels {
     display: flex;
     flex-wrap: wrap;
     gap: 0.3em;
@@ -107,16 +108,23 @@
     scale: 1.1;
     justify-content: center;
 }
-.page-leaderboard .player .packs .tag {
-    display: flex;
-    flex-shrink: 0;
-    background-size: 100% 100% !important;
-}
-.page-leaderboard .player .levels .level-display {
+.page-leaderboard .player .levels .level-display,
+.page-leaderboard .player .extra .levels .level-display
+ {
     font-family: "Lexend Deca", sans-serif;
     display: flex;
     text-shadow: 2px 2px 4px black;
     padding: 3px;
+}
+.page-leaderboard .player .extra {
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+.page-leaderboard .player .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
