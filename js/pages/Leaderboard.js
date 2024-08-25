@@ -82,7 +82,8 @@ export default {
                         <h2 v-if="entry.completedLevels.length > 0">Įveikti challenge'ai ({{ entry.completedLevels.length }})</h2>
                         <table class="table">
                             <tr v-for="score in entry.completedLevels">
-                                 <td class="rank">
+                               </td>
+                                <td class="rank">
                                     <p v-if="score.rank <= 75">#{{ score.rank }}</p>
                                     <p v-else>Legacy</p>
                                 </td>
