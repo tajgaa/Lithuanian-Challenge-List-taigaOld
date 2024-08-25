@@ -56,7 +56,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.createdLevels">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-else class="type-label-lg">Legacy</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -67,7 +68,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.verifiedLevels">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-else class="type-label-lg">Legacy</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -81,7 +83,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completedLevels">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="i + 1 <= 75" class="type-label-lg">#{{ i + 1 }}</p>
+                                    <p v-else class="type-label-lg">Legacy</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
