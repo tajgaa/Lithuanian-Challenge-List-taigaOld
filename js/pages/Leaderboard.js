@@ -51,14 +51,19 @@ export default {
 
                         <!--Completed packs-->
                         <div class="stats-container">
-                        <template v-if="entry.packsComplete.length > 0">
-                            <h2 style="padding:5px; width:100%">Įveikti pakeliai ({{ entry.packsComplete.length}})</h2>
-                            <div class="packs">
-                                <div class="tag" v-for="pack in entry.packsComplete" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
-                                {{pack.name}}
+                            <template v-if="entry.packsComplete.length > 0">
+                                <h2 style="padding:5px; width:100%">Įveikti pakeliai</h2>
+                                <div class="packs">
+                                    <div class="tag" v-for="pack in entry.packsComplete" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
+                                    {{pack.name}}
+                                    </div>
                                 </div>
-                            </div>
-                        </template>
+                            </template>
+                            <template v-else>
+                                <div class="packs">
+                                    <div class="tag" style="opacity:70%"> Nieko</div>
+                                </div>
+                            </template>
                         </div>
 
                         <!--Completed levels-->
@@ -80,7 +85,7 @@ export default {
                             </div>
                         </template>
                         <template v-else>
-                            <div class="levels" style:"opacity:70%">Nieko</div>
+                            <div class="levels" style="opacity:70%">Nieko</div>
                         </template>
                         </div>
                         
@@ -105,7 +110,7 @@ export default {
                                     </div>
                                 </template>
                                 <template v-else>
-                                    <div class="levels" style:"opacity:70%">Nieko</div>
+                                    <div class="levels" style="opacity:70%">Nieko</div>
                                 </template>
                             </div>
 
@@ -129,7 +134,7 @@ export default {
                                     </div>
                                 </template>
                                 <template v-else>
-                                    <div class="levels" style:"opacity:70%">Nieko</div>
+                                    <div class="levels" style="opacity:70%">Nieko</div>
                                 </template>
                             </div>
 
