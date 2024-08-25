@@ -119,16 +119,12 @@
     text-shadow: 2px 2px 4px black;
     padding: 3px;
 }
-.page-leaderboard .player .stats-container .extra{
-    margin-left: 12%;
-    margin-right: 12%;
-}
 .page-leaderboard .player .stats-container {
-    display: inline-flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1;
-    gap: 1em;
+    row-gap: 15%;
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
