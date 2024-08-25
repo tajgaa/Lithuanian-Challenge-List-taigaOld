@@ -67,10 +67,10 @@ export default {
                                 <template v-for="(score, index) in entry.createdLevels">
                                     <div class="level-display">
                                         <template v-if="score.rank <= 75">
-                                            <a :style="{font-weight:bold}" :href="score.link">{{ score.level }}</a>
+                                            <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
                                         </template>
                                         <template v-else>
-                                            <a :style="{font-style:italic, opacity: 60%}" :href="score.link">{{ score.level }}</a>
+                                            <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
                                         </template>
                                     </div>
                                     <p v-if="entry.createdLevels[index+1] !== null" class="level-display">" - "</p>
