@@ -65,7 +65,8 @@
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
-.page-leaderboard .player {
+.page-leaderboard .player,
+.page-leaderboard .player .personal .extra {
     display: flex;
     flex-direction: column;
     gap: 4rem;
