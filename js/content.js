@@ -137,16 +137,24 @@ export async function fetchLeaderboard() {
             }
         }
         user[1]["packsComplete"].sort(function (a, b) {
-            return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+            let nameA = a.name;
+            let nameB = b.name;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
             });
         user[1]["verifiedLevels"].sort(function (a, b) {
-            return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+            let nameA = a.name;
+            let nameB = b.name;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
             });
         user[1]["completedLevels"].sort(function (a, b) {
-            return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+            let nameA = a.name;
+            let nameB = b.name;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
           });
         user[1]["createdLevels"].sort(function (a, b) {
-            return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+            let nameA = a.name;
+            let nameB = b.name;
+            return nameA.toLowerCase().localeCompare(nameB.toLowerCase());
             });
         
     }
