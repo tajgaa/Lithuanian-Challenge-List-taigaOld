@@ -79,7 +79,7 @@ export default {
                         <!--Completed packs-->
                         <div class="stats-container">
                             <h2 style="padding:5px; width:100%">Įveikti pakeliai</h2>
-                            template v-if="entry.packsComplete.length > 0">
+                            <template v-if="entry.packsComplete.length > 0">
                                 <div class="packs">
                                     <div class="tag" v-for="pack in entry.packsComplete" :style="{background:pack.colour, color:getFontColour(pack.colour)}">
                                     {{pack.name}}
