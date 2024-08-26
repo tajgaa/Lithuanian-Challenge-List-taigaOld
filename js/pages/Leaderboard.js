@@ -74,10 +74,10 @@ export default {
                                     <div class="levels">
                                         <div class="level-display" style="font-size:1.4em;">
                                             <template v-if="entry.hardest.rank <= 75">
-                                                <a style="font-weight:bold;" :href="score.link">{{ entry.hardest.level }}</a>
+                                                <a style="font-weight:bold;" :href="entry.hardest.link">{{ entry.hardest.level }}</a>
                                             </template>
                                             <template v-else>
-                                                <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ entry.hardest.level }}</a>
+                                                <a style="font-style:italic; opacity: 60%;" :href="entry.hardest.link">{{ entry.hardest.level }}</a>
                                             </template>
                                         </div>
                                     </div>
