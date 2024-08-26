@@ -46,14 +46,14 @@ export default {
 
                 
                 <div class="player-container">
-                    <h1 style="padding:50px; width:100%; scale: 1.3; text-align:center;">{{ entry.user }}</h1>
+                    <h1 style="padding-top:30px; padding-bottom:60px; width:100%; scale: 1.3; text-align:center;">{{ entry.user }}</h1>
                     <div class="player">
 
                         <!--Main info tab-->
-                        <div class="stats-container">
+                        <div class="stats-container" style:"column-width:10%">
                             <!--Rank-->
                             <div class="extra" style="width:25%">
-                                <h3 style="padding:5px; width:100%">Reitingas</h3>
+                                <h2 style="padding:5px; width:100%">Reitingas</h2>
                                 <div class="levels">
                                     <div class="level-display">{{ selected + 1 }}</div>
                                 </div>
@@ -61,7 +61,7 @@ export default {
 
                             <!--Score-->
                             <div class="extra" style="width:25%">
-                                <h3 style="padding:5px; width:100%">Taškai</h3>
+                                <h2 style="padding:5px; width:100%">Taškai</h2>
                                 <div class="levels">
                                     <div class="level-display">{{ entry.total }}</div>
                                 </div>
@@ -69,7 +69,7 @@ export default {
 
                             <!--Hardest-->
                             <div class="extra" style="width:25%">
-                                <h3 style="padding:5px; width:100%">Sunkiausias challenge'as</h3>
+                                <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
                                 <template v-if="entry.completedLevels.length > 0 || entry.verifiedLevels.length > 0">
                                     <div class="levels">
                                         <div class="level-display">{{ entry.hardest.level }}</div>
