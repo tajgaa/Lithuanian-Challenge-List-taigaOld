@@ -165,15 +165,20 @@ export async function fetchLeaderboard() {
         const total = [verifiedLevels, completedLevels]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
-
+        const hardest = [verifiedLevels, completedLevels]
+        .flat()
+        .reduce(function(prev, cur) {
+            return (prev.rank < cur.rank) ? prev : cur;
+        });
         return {
             user,
             total: round(total),
             ...scores,
+            hardest,
         };
     });
     // Sort by total score
-    return [res.sort((a, b) => b.total - a.total), errs];
+    return [res.sort((a, b) => b.total - a.total), errs]; 
 
 }
 

@@ -43,11 +43,55 @@ export default {
                         </tr>
                     </table>
                 </div>
-
+            
                 
                 <div class="player-container">
-                    <h1 style="padding:20px;">#{{ selected + 1 }} {{ entry.user }}</h1> <h3 style="padding:15px;">{{ entry.total }}</h3>
                     <div class="player">
+
+                        <div class="stats-container">
+                            <h1 style="padding-top: 30px;padding-bottom: 60px;font-size: 70px;text-align: center;">{{ entry.user }}</h1>
+                        </div>
+                        <!--Main info tab-->
+                        <div class="stats-container" style="column-gap:8%">
+                            <!--Rank-->
+                            <div class="extra" style="width:25%">
+                                <h2 style="padding:5px; width:100%">Reitingas</h2>
+                                <div class="levels">
+                                    <div class="level-display" style="font-size:1.4em;">{{ selected + 1 }}</div>
+                                </div>
+                            </div>
+
+                            <!--Score-->
+                            <div class="extra" style="width:25%">
+                                <h2 style="padding:5px; width:100%">Taškai</h2>
+                                <div class="levels">
+                                    <div class="level-display" style="font-size:1.4em;">{{ entry.total }}</div>
+                                </div>
+                            </div>
+
+                            <!--Hardest-->
+                            <div class="extra" style="width:25%">
+                                <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
+                                <template v-if="entry.completedLevels.length > 0 || entry.verifiedLevels.length > 0">
+                                    <div class="levels">
+                                        <div class="level-display" style="font-size:1.4em;">
+                                            <template v-if="entry.hardest.rank <= 75">
+                                                <a style="font-weight:bold;" :href="entry.hardest.link">{{ entry.hardest.level }}</a>
+                                            </template>
+                                            <template v-else>
+                                                <a style="font-style:italic; opacity: 60%;" :href="entry.hardest.link">{{ entry.hardest.level }}</a>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                                <template v-else>
+                                    <div class="levels">
+                                        <div class="level-display" style="font-size:1.4em;"Nieko</div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
 
                         <!--Completed packs-->
                         <div class="stats-container">
@@ -68,29 +112,29 @@ export default {
 
                         <!--Completed levels-->
                         <div class="stats-container">
-                        <h2 style="padding:5px; width:100%">Įveikti challenge'ai</h2>
-                        <template v-if="entry.completedLevels.length > 0">
-                            <div class="levels">
-                                <template v-for="(score, index) in entry.completedLevels">
-                                    <div class="level-display">
-                                        <template v-if="score.rank <= 75">
-                                            <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                        <template v-else>
-                                            <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
-                                        </template>
-                                    </div>
-                                    <div v-if="index !== entry.completedLevels.length - 1" class="level-display">-</div>
-                                </template
-                            </div>
-                        </template>
-                        <template v-else>
-                            <div class="levels">
-                                <div class="level-display" style="opacity:70%">Nieko</div>
-                            </div>
-                        </template>
+                            <h2 style="padding:5px; width:100%">Įveikti challenge'ai</h2>
+                            <template v-if="entry.completedLevels.length > 0">
+                                <div class="levels">
+                                    <template v-for="(score, index) in entry.completedLevels">
+                                        <div class="level-display">
+                                            <template v-if="score.rank <= 75">
+                                                <a style="font-weight:bold;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                            <template v-else>
+                                                <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ score.level }}</a>
+                                            </template>
+                                        </div>
+                                        <div v-if="index !== entry.completedLevels.length - 1" class="level-display">-</div>
+                                    </template>
+                                </div>
+                            </template>
+                            <template v-else>
+                                <div class="levels">
+                                    <div class="level-display" style="opacity:70%">Nieko</div>
+                                </div>
+                            </template>
                         </div>
-                        
+        
                         <div class="stats-container">
 
                             <!--Created levels-->
@@ -119,7 +163,7 @@ export default {
                             </div>
 
 
-                            <!--Verified levels-->
+                        <!--Verified levels-->
                             <div class="extra">
                                 <h2 style="padding:5px; width:100%">Patvirtinti challenge'ai</h2>
                                 <template v-if="entry.verifiedLevels.length > 0">
@@ -143,13 +187,12 @@ export default {
                                     </div>
                                 </template>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-    `,
+`,
     computed: {
         entry() {
             return this.leaderboard[this.selected];
