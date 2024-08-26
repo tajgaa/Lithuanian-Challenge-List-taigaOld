@@ -52,7 +52,7 @@ export default {
                         <!--Main info tab-->
                         <div class="stats-container">
                             <!--Rank-->
-                            <div class="extra">
+                            <div class="extra" style="width:33%">
                                 <h2 style="padding:5px; width:100%">Reitingas</h2>
                                 <div class="levels">
                                     <div class="level-display">{{ selected + 1 }}</div>
@@ -60,7 +60,7 @@ export default {
                             </div>
 
                             <!--Score-->
-                            <div class="extra">
+                            <div class="extra" style="width:33%">
                                 <h2 style="padding:5px; width:100%">Taškai</h2>
                                 <div class="levels">
                                     <div class="level-display">{{ entry.total }}</div>
@@ -68,11 +68,11 @@ export default {
                             </div>
 
                             <!--Hardest-->
-                            <div class="extra">
+                            <div class="extra" style="width:33%">
                                 <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
                                 <template v-if="entry.completedLevels.length > 0 || entry.verifiedLevels.length > 0">
                                     <div class="levels">
-                                        <div class="level-display">{{ entry.hardest.name }}</div>
+                                        <div class="level-display">{{ entry.hardest.level }}</div>
                                     </div>
                                 </template>
                                 <template v-else>
