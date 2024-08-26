@@ -90,13 +90,14 @@
 .page-leaderboard .player .packs {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4em;
-    margin-left: 12%;
-    margin-right: 12%;
+    column-gap: 1.3em;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-top: 15px;
     margin-bottom: 15px;
-    scale: 1.2;
+    scale: 1;
     justify-content: center;
+    row-gap: 0.7em;
 }
 
 .page-leaderboard .player .stats-container .levels,
@@ -132,7 +133,12 @@
 .page-leaderboard .player .packs .tag {
     display: flex;
     flex-shrink: 0;
+    border-radius: 14px;
+    text-shadow: 2px 2px 4px black;
     background-size: 100% 100% !important;
+    padding: 10px;
+    margin: 0.2em;
+    scale: 1.2;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
