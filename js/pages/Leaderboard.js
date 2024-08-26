@@ -54,23 +54,31 @@ export default {
                             <!--Rank-->
                             <div class="extra">
                                 <h2 style="padding:5px; width:100%">Reitingas</h2>
-                                <div class="levels">{{ selected + 1 }}</div>
+                                <div class="levels">
+                                    <div class="level-display">{{ selected + 1 }}</div>
+                                </div>
                             </div>
 
                             <!--Score-->
                             <div class="extra">
                                 <h2 style="padding:5px; width:100%">Taškai</h2>
-                                <div class="levels">{{ entry.total }}</div>
+                                <div class="levels">
+                                    <div class="level-display">{{ entry.total }}</div>
+                                </div>
                             </div>
 
                             <!--Hardest-->
                             <div class="extra">
                                 <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
-                                <template v-if="entry.completedLevels.length > 0 | entry.verifiedLevels.length > 0">
-                                    <div class="levels">{{ entry.hardest.name }}</div>
+                                <template v-if="entry.completedLevels.length > 0 || entry.verifiedLevels.length > 0">
+                                    <div class="levels">
+                                        <div class="level-display">{{ entry.hardest.name }}</div>
+                                    </div>
                                 </template>
                                 <template v-else>
-                                    <div class="levels">Nieko</div>
+                                    <div class="levels">
+                                        <div class="level-display">Nieko</div>
+                                    </div>
                                 </template>
                             </div>
                         </div>
