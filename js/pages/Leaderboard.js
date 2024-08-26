@@ -46,8 +46,32 @@ export default {
 
                 
                 <div class="player-container">
-                    <h1 style="padding:20px;">#{{ selected + 1 }} {{ entry.user }}</h1> <h3 style="padding:15px;">{{ entry.total }}</h3>
+                    <h1 style="padding:20px; width:100%; text-align:center;">{{ entry.user }}</h1>
                     <div class="player">
+
+                        <!--Main info tab-->
+                        <div class="stats-container">
+
+                            <!--Rank-->
+                            <div class="extra">
+                                <h2 style="padding:5px; width:100%">Reitingas</h2>
+                                <div class="levels">{{ selected + 1 }}</div>
+                            <div>
+
+                            <!--Score-->
+                            <div class="extra">
+                            <h2 style="padding:5px; width:100%">Taškai</h2>
+                            <div class="levels">{{ entry.total }}</div>
+                            <div>
+
+                            <!--Hardest-->
+                            <div class="extra">
+                            <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
+                            <div class="levels">{{ entry.hardest.name }}</div>
+                            <div>
+
+                        </div>
+
 
                         <!--Completed packs-->
                         <div class="stats-container">
