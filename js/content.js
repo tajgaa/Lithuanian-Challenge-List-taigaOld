@@ -167,7 +167,9 @@ export async function fetchLeaderboard() {
             .reduce((prev, cur) => prev + cur.score, 0);
         const hardest = [verifiedLevels, completedLevels]
         .flat()
-        .reduce((min, cur) => min < cur.rank ? min : cur.rank);
+        .reduce(function(prev, cur) {
+            return (min.rank < cur.rank) ? prev : cur;
+        });
         return {
             user,
             total: round(total),
