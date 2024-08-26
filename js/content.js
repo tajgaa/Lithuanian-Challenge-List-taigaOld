@@ -1,5 +1,5 @@
 import { round, score } from './score.js';
-import { underscoreToWhitespace, compareTo } from './util.js';
+import { underscoreToWhitespace } from './util.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
