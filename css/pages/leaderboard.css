@@ -129,6 +129,7 @@
 }
 .page-leaderboard .player .stats-container .extra {
     width:40%;
+    align-items: center;
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
