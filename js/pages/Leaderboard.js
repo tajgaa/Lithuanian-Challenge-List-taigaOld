@@ -72,7 +72,14 @@ export default {
                                 <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
                                 <template v-if="entry.completedLevels.length > 0 || entry.verifiedLevels.length > 0">
                                     <div class="levels">
-                                        <div class="level-display" style="font-size:1.4em;">{{ entry.hardest.level }}</div>
+                                        <div class="level-display" style="font-size:1.4em;">
+                                            <template v-if="entry.hardest.rank <= 75">
+                                                <a style="font-weight:bold;" :href="score.link">{{ entry.hardest.level }}</a>
+                                            </template>
+                                            <template v-else>
+                                                <a style="font-style:italic; opacity: 60%;" :href="score.link">{{ entry.hardest.level }}</a>
+                                            </template>
+                                        </div>
                                     </div>
                                 </template>
                                 <template v-else>
