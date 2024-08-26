@@ -46,7 +46,7 @@ export default {
 
                 
                 <div class="player-container">
-                    <h1 style="padding-top:30px; padding-bottom:60px; width:100%; scale: 1.3; text-align:center;">{{ entry.user }}</h1>
+                    <h1 style="padding-top:30px; padding-bottom:60px; width:100%; text-size:1.3em; text-align:center;">{{ entry.user }}</h1>
                     <div class="player">
 
                         <!--Main info tab-->
