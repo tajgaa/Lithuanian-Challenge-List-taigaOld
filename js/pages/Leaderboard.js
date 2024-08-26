@@ -50,7 +50,7 @@ export default {
                     <div class="player">
 
                         <!--Main info tab-->
-                        <div class="stats-container" style:"column-width:10%">
+                        <div class="stats-container" style:"column-gap:8%">
                             <!--Rank-->
                             <div class="extra" style="width:25%">
                                 <h2 style="padding:5px; width:100%">Reitingas</h2>
