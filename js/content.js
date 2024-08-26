@@ -1,5 +1,5 @@
 import { round, score } from './score.js';
-import { underscoreToWhitespace } from './util.js';
+import { underscoreToWhitespace, compareTo } from './util.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
@@ -167,10 +167,8 @@ export async function fetchLeaderboard() {
             .reduce((prev, cur) => prev + cur.score, 0);
         const hardest = [verifiedLevels, completedLevels]
         .flat()
-        .sort(function(a, b){
-            let rankA = a.rank;
-            let rankB = b.rank;
-            return rankA.localeCompare(rankB);
+        .push({
+            rank: level.rank
         })
         .min();
         return {
