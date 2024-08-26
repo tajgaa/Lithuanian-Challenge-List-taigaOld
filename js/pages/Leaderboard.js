@@ -46,14 +46,14 @@ export default {
 
                 
                 <div class="player-container">
-                    <h1 style="padding:20px; width:100%; text-align:center;">{{ entry.user }}</h1>
+                    <h1 style="padding:50px; width:100%; text-align:center;">{{ entry.user }}</h1>
                     <div class="player">
 
                         <!--Main info tab-->
                         <div class="stats-container">
                             <!--Rank-->
                             <div class="extra" style="width:33%">
-                                <h2 style="padding:5px; width:100%">Reitingas</h2>
+                                <h3 style="padding:5px; width:100%">Reitingas</h3>
                                 <div class="levels">
                                     <div class="level-display">{{ selected + 1 }}</div>
                                 </div>
@@ -61,7 +61,7 @@ export default {
 
                             <!--Score-->
                             <div class="extra" style="width:33%">
-                                <h2 style="padding:5px; width:100%">Taškai</h2>
+                                <h3 style="padding:5px; width:100%">Taškai</h3>
                                 <div class="levels">
                                     <div class="level-display">{{ entry.total }}</div>
                                 </div>
@@ -69,7 +69,7 @@ export default {
 
                             <!--Hardest-->
                             <div class="extra" style="width:33%">
-                                <h2 style="padding:5px; width:100%">Sunkiausias challenge'as</h2>
+                                <h3 style="padding:5px; width:100%">Sunkiausias challenge'as</h3>
                                 <template v-if="entry.completedLevels.length > 0 || entry.verifiedLevels.length > 0">
                                     <div class="levels">
                                         <div class="level-display">{{ entry.hardest.level }}</div>
