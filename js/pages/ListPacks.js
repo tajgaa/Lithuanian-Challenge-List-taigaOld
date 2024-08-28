@@ -87,7 +87,7 @@ export default {
                     </div>
                     <h3>Apie pakelius</h3>
                     <p>
-                        Pakelį sudaro 3-5 panašios tematikos lygiai. Vieno pakelio lygiai neprivalo būti sukurti to pačio kūrėjo - galima daryti neoficialius priedus į kokią nors challenge seriją arba net sukurti naują seriją iš kokio vieno lygio list'e jei labai patinka jo tema. Temos panašumas gali būti su gamemode, stiliumi, gameplay, arba kitokiais aspektais (pvz. pavadinimais arba kad challenge'ai yra sukurti kelių žmonių pagalba). Maximum vietų skirtumas tarp lygių viename pakelyje yra 20. 
+                        Pakelį sudaro 3-5 panašios tematikos lygiai. Vieno pakelio lygiai neprivalo būti sukurti to pačio kūrėjo - galima daryti neoficialius priedus į kokią nors challenge seriją arba net sukurti naują seriją iš kokio vieno lygio list'e jei labai patinka jo tema. Temos panašumas gali būti su gamemode, stiliumi, gameplay, arba kitokiais aspektais (pvz. pavadinimais arba kad challenge'ai yra sukurti kelių žmonių pagalba). Maximum vietų skirtumo tarp lygių nėra. 
                     </p>
                     <h3>Kaip gauti pakelius?</h3>
                     <p>
