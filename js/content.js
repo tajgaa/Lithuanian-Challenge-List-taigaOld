@@ -14,7 +14,7 @@ export async function fetchList() {
         const packsList = await packResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path.toLowerCase()}.json`);
+                const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
                     const level = await levelResult.json();
                     let packs = packsList.filter((x) =>
