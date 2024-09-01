@@ -1,0 +1,37 @@
+{
+    "id": 82581256,
+    "name": "actimel",
+    "author": "ZygisDij",
+    "creators": ["ZygisDij"],
+    "verifier": "ZygisDij",
+    "verification": "https://youtu.be/Ukkx8LE_v5M",
+    "percentToQualify": "100",
+    "password": "",
+    "records": [
+        {
+            "user": "taiga",
+            "percent": 100
+        },
+        {
+            "user": "Algirdas42",
+            "percent": 100
+        },
+        {
+            "user": "xtrapnationx",
+            "percent": 100
+        },
+        {
+            "user": "KandyMan",
+            "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
+        },
+        {
+            "user": "ZonerG",
+            "percent": 100
+        }
+        
+    ]
+}

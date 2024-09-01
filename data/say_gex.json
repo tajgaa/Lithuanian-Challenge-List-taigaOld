@@ -1,0 +1,45 @@
+{
+    "id": 76891675,
+    "name": "Say Gex",
+    "author": "ArcticEggz",
+    "creators": ["ArcticEggz"],
+    "verifier": "xtrapnationx",
+    "verification": "https://youtu.be/KgHTO-O_1ao",
+    "percentToQualify": "100",
+    "password": "",
+    "records": [
+        {
+            "user": "yolomodeboom",
+            "percent": 100
+        },
+        {
+            "user": "harmyko",
+            "percent": 100
+        },
+        {
+            "user": "Algirdas42",
+            "percent": 100
+        },
+        {
+            "user": "KandyMan",
+            "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
+        },
+        {
+            "user": "Slick",
+            "percent": 100
+        },
+        {
+            "user": "danz",
+            "percent": 100
+        },
+        {
+            "user": "Velniukstis",
+            "percent": 100
+        }
+        
+    ]
+}

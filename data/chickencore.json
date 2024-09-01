@@ -1,0 +1,27 @@
+{
+    "id": 108004996,
+    "name": "chickencore",
+    "author": "functionxd",
+    "creators": ["functionxd"],
+    "verifier": "functionxd",
+    "verification": "https://youtu.be/jJEV9WgSlLs",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "xtrapnationx",
+            "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
+        },
+        {
+            "user": "taiga",
+            "percent": 100
+        },
+        {
+            "user": "Algirdas42",
+            "percent": 100
+        }
+    ]
+}

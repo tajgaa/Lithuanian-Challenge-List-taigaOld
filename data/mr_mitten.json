@@ -1,0 +1,37 @@
+{
+    "id": 83568006,
+    "name": "mr mitten",
+    "author": "ArcticEggz",
+    "creators": ["ArcticEggz"],
+    "verifier": "taiga",
+    "verification": "https://youtu.be/OYNUb0rJuTw",
+    "NONG":"data/NONGS/8800.mp3",
+    "password": "Free to copy",
+    "records": [
+        {
+            "user": "iDinamte",
+            "percent": 100
+        },
+        {
+            "user": "KandyMan",
+            "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
+        },
+        {
+            "user": "ZygisDij",
+            "percent": 100
+        },
+        {
+            "user": "Algirdas42",
+            "percent": 100
+        },
+        {
+            "user": "xtrapnationx",
+            "percent": 100
+        }
+        
+    ]
+}

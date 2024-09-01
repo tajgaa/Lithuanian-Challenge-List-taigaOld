@@ -1,0 +1,79 @@
+{
+    "id": 78090178,
+    "name": "Slicker Challenge",
+    "author": "taiga",
+    "creators": ["taiga"],
+    "verifier": "taiga",
+    "verification": "https://youtu.be/pNM_US4eJ5Q",
+    "percentToQualify": "100",
+    "records": [
+        {
+          "user": "yolomodeboom",
+          "percent": 100
+        },
+        {
+          "user": "harmyko",
+          "percent": 100
+        },
+        {
+          "user": "danz",
+          "percent": 100
+        },
+        {
+          "user": "Slick",
+          "percent": 100
+        },
+        {
+          "user": "functionxd",
+          "percent": 100
+        },
+        {
+          "user": "ZygisDij",
+          "percent": 100
+        },
+        {
+          "user": "xtrapnationx",
+          "percent": 100
+        },
+        {
+          "user": "Algirdas42",
+          "percent": 100
+        },
+        {
+          "user": "RiVeLqZ",
+          "percent": 100
+        },
+        {
+          "user": "Veikkies",
+          "percent": 100
+        },
+        {
+          "user": "Griance",
+          "percent": 100
+        },
+        {
+            "user": "ta1p",
+            "percent": 100
+          },
+        {
+            "user": "wagneris",
+            "percent": 100
+          },
+        {
+            "user": "S3N1",
+            "percent": 100
+          },
+        {
+            "user": "ZonerG",
+            "percent": 100
+        },
+        {
+            "user": "NojusGaminGG",
+            "percent": 100
+        },
+        {
+          "user": "ArcticEggz",
+          "percent": 100
+        }
+    ]
+}
