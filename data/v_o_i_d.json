@@ -1,0 +1,30 @@
+{
+    "id": 81374188,
+    "name": "v O i D",
+    "author": "KandyMan",
+    "creators": ["KandyMan"],
+    "verifier": "KandyMan",
+    "verification": "https://youtu.be/r48YRnav5O4",
+    "NONG": "data/NONGS/1083904.mp3",
+    "password": "Free to copy",
+    "records": [
+        {
+            "user": "yolomodeboom",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "ta1p",
+            "link": "",
+            "percent": 100,
+
+            "hz": ""
+        },
+        {
+            "user": "Algirdas42",
+            "percent": 100
+        }
+        
+    ]
+}

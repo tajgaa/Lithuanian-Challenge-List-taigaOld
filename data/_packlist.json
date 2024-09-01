@@ -11,8 +11,8 @@
   {
         "name": "pachmas",
         "levels": [
-            "Pykinimas",
-            "TRIEDALAS",
+            "pykinimas",
+            "triedalas",
             "myzalas"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/C1uZWEan')"
@@ -21,7 +21,7 @@
         "name": "kamuoliukai",
         "levels": [
             "wtaer",
-            "Bic_Lighter",
+            "bic_lighter",
             "kamuoliuko_isbandyma"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/K9pUPCvw')"
@@ -29,9 +29,9 @@
   {
         "name": "alkoholis",
         "levels": [
-            "ABSOLUT",
-            "Degtine",
-            "Jack_Daniels"
+            "absolut",
+            "degtine",
+            "jack_daniels"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/W4XKj8A9')"
     },
@@ -39,7 +39,7 @@
         "name": "triple a",
         "levels": [
             "aurisa",
-            "Askeral",
+            "askeral",
             "admixture"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/umh6DJKT')"
@@ -47,26 +47,26 @@
   {
         "name": "slick pack",
         "levels": [
-            "Slick_Challenge",
-            "Slicker_Challenge",
-            "Slickest_Challenge"
+            "slick_challenge",
+            "slicker_challenge",
+            "slickest_challenge"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/4a7Vrtw9')"
     },
   {
         "name": "parduotuve",
         "levels": [
-            "MAXIMA_IS_COOL",
-            "I_LOVE_IKEA",
-            "LIDL"
+            "maxima_is_cool",
+            "i_love_ikea",
+            "lidl"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/5SbkRLPe')"
     },
   {
         "name": "rng",
         "levels": [
-            "Melyninis_Miau",
-            "Have_fun",
+            "melyninis_miau",
+            "have_fun",
             "kandyman_chamber"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/Pc9FxeBd')"
@@ -74,17 +74,17 @@
   {
         "name": "click sync",
         "levels": [
-            "FCL_IS_BIASED",
-            "Adrenalinas",
-            "SurFaced"
+            "fcl_is_biased",
+            "adrenalinas",
+            "surfaced"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/dXM0x1LQ')"
     },
   {
         "name": "trumpas bangavimas",
         "levels": [
-            "3_seconds_RGB",
-            "Fever_Dream",
+            "3_seconds_rgb",
+            "fever_dream",
             "musu_lygis"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/xe9PG9Ya')"
