@@ -3,7 +3,7 @@
     "name": "Say Gex",
     "author": "ArcticEggz",
     "creators": ["ArcticEggz"],
-    "verifier": "ArcticEggz",
+    "verifier": "xtrapnationx",
     "verification": "https://youtu.be/KgHTO-O_1ao",
     "percentToQualify": "100",
     "password": "",
@@ -14,10 +14,6 @@
         },
         {
             "user": "harmyko",
-            "percent": 100
-        },
-        {
-            "user": "xtrapnationx",
             "percent": 100
         },
         {
@@ -38,6 +34,10 @@
         },
         {
             "user": "danz",
+            "percent": 100
+        },
+        {
+            "user": "Velniukstis",
             "percent": 100
         }
         
