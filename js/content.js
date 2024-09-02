@@ -132,7 +132,7 @@ export async function fetchLeaderboard() {
         );
     
         for (let pack of packResult) {
-            if (pack.levels.every((packLevel) => completions.includes(underscoreToWhitespace(packLevel).ToLowerCase()))) {
+            if (pack.levels.every((packLevel) => completions.includes(underscoreToWhitespace(packLevel.ToLowerCase())))) {
                 user[1]["packsComplete"].push(pack);
             }
         }
