@@ -128,11 +128,11 @@ export async function fetchLeaderboard() {
     //Player completed packs
     for (let user of Object.entries(player)) {
         let completions = [...user[1]["verifiedLevels"], ...user[1]["completedLevels"]].map(
-            (x) => x["level"]
+            (x) => x["level"].toLowerCase()
         );
     
         for (let pack of packResult) {
-            if (pack.levels.every((packLevel) => completions.includes(underscoreToWhitespace(packLevel.ToLowerCase())))) {
+            if (pack.levels.every((packLevel) => completions.includes(underscoreToWhitespace(packLevel)))) {
                 user[1]["packsComplete"].push(pack);
             }
         }
