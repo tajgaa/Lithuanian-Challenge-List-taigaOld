@@ -92,17 +92,17 @@
     {
         "name": "skraidymo praktika",
         "levels": [
-            "lemon",
+            "ardour",
             "singularity",
-            "ardour"
+            "lemon"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/9tQ7Hyeo')"
     },
     {
         "name": "pragaras",
         "levels": [
-            "h_ell",
             "viso_gero",
+            "h_ell",
             "holy_moly"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/rwKnWkdu')"
@@ -110,20 +110,20 @@
     {
         "name": "kolaboracijos",
         "levels": [
-            "akropolis_ii",
-            "viso_gero",
             "musu_lygis",
-            "ltcl_sugrizo"
+            "ltcl_sugrizo",
+            "viso_gero",
+            "akropolis_ii"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/LOLjofgH')"
     },
     {
         "name": "minimali dekoracija",
         "levels": [
-            "crazy_challenge",
             "dr_nefario_clear",
             "actimel",
             "jagermeister",
+            "crazy_challenge",
             "reddit_landscape"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/KXjL43AG')"
