@@ -88,5 +88,46 @@
             "musu_lygis"
         ],
         "colour": "url('https://ltclimages.s-ul.eu/xe9PG9Ya')"
+    },
+    {
+        "name": "skraidymo praktika",
+        "levels": [
+            "lemon",
+            "singularity",
+            "ardour"
+        ],
+        "colour": "url('https://ltclimages.s-ul.eu/9tQ7Hyeo')"
+    },
+    {
+        "name": "pragaras",
+        "levels": [
+            "h_ell",
+            "viso_gero",
+            "holy_moly"
+        ],
+        "colour": "url('https://ltclimages.s-ul.eu/rwKnWkdu')"
+    },
+    {
+        "name": "kolaboracijos",
+        "levels": [
+            "akropolis_ii",
+            "viso_gero",
+            "musu_lygis",
+            "ltcl_sugrizo"
+        ],
+        "colour": "url('https://ltclimages.s-ul.eu/LOLjofgH')"
+    },
+    {
+        "name": "minimali dekoracija",
+        "levels": [
+            "crazy_challenge",
+            "dr_nefario_clear",
+            "actimel",
+            "jagermeister",
+            "reddit_landscape"
+        ],
+        "colour": "url('https://ltclimages.s-ul.eu/KXjL43AG')"
     }
+    
+    
 ]
