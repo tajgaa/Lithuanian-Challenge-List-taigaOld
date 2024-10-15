@@ -10,13 +10,11 @@
     "records": [
         {
             "user": "ta1p",
-            "link": "",
-            "percent": 100,
-            "hz": ""
+            "percent": 100
         },
         {
             "user": "hextorus",
-            "percent": 100,
+            "percent": 100
         }
     ]
 }
