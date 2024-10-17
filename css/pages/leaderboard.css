@@ -112,7 +112,7 @@
     scale: 1;
     justify-content: center;
 }
-.page-leaderboard .player .stats-container .level-counter{
+.page-leaderboard .player .stats-container .levels-counter{
     padding-top: 5px;
     font-weight: 350;
     padding-bottom: 10px; 
