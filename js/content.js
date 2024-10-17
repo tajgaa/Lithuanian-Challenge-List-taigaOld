@@ -69,6 +69,8 @@ export async function fetchLeaderboard() {
             createdLevels: [],
             verifiedLevels: [],
             completedLevels: [],
+            completedMainLevels: 0,
+            completedLegacyLevels: 0,
             packsComplete: [],
             };
             const {createdLevels} = player[creator];
@@ -88,9 +90,11 @@ export async function fetchLeaderboard() {
         player[verifier] ??= {
             createdLevels: [],
             verifiedLevels: [],
-            completedLevels: [],   
+            completedLevels: [],
+            completedMainLevels: 0,
+            completedLegacyLevels: 0,
             packsComplete: [],
-        };
+            };
         const { verifiedLevels } = player[verifier];
         verifiedLevels.push({
             rank: rank + 1,
@@ -108,11 +112,19 @@ export async function fetchLeaderboard() {
             player[user] ??= {
                 createdLevels: [],
                 verifiedLevels: [],
-                completedLevels: [],   
+                completedLevels: [],
+                completedMainLevels: 0,
+                completedLegacyLevels: 0,
                 packsComplete: [],
-            };
+                };
             const { completedLevels } = player[user];
             if (record.percent === 100) {
+                if(rank < 75){
+                    player[user].completedMainLevels++;
+                }
+                else {
+                    player[user].completedLegacyLevels++;
+                }
                 completedLevels.push({
                     rank: rank + 1,
                     level: level.name,

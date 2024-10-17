@@ -3,25 +3,6 @@ export function score(rank){
   // var top11_50Score = (Math.sin(0.08 * (rank + 8.905))*70) + 100;
   // var top51_75Score = 1.83 + (1/(0.0036*(rank-41)))
 
-  // if(rank => 1){ //rank has to be above 1
-  //   if(rank < 11)//if rank is 10 or above
-  //   { 
-  //     return round(top10Score);
-  //   }
-  //   else if(rank > 10 & rank < 51)//if rank is between 11 and 50
-  //   { 
-  //     return round(top11_50Score)
-  //   }
-  //   else if(rank > 50 && rank < 76)//if rank is between 51 and 75
-  //   { 
-  //     return round(top51_75Score);
-  //   }
-  //   else //return 0 if rank goes beyond 75 (it counts as legacy)
-  //   {
-  //     return 0;
-  //   }
-  // }
-
   //var top10Score = 149.61*(1.137^(1-rank))+100.39;
   //var top11_35Score = 166.611*(1.0099685^(17-rank))-31.152;
   //var top36_55Score = 212.61*(1.036^(14-rank))+6.071;

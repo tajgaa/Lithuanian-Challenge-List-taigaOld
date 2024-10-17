@@ -113,6 +113,7 @@ export default {
                         <!--Completed levels-->
                         <div class="stats-container">
                             <h2 style="padding:5px; width:100%">Įveikti challenge'ai</h2>
+                            <h3 class="levels-counter">Main: {{entry.completedMainLevels}}, Legacy: {{entry.completedLegacyLevels}} </h3>
                             <template v-if="entry.completedLevels.length > 0">
                                 <div class="levels">
                                     <template v-for="(score, index) in entry.completedLevels">
