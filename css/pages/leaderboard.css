@@ -33,7 +33,7 @@
 .page-leaderboard .board {
     table-layout: auto;
     display: block;
-    width: 70%;
+    width: 90%;
 }
 .page-leaderboard .board .rank {
     padding-block: 1rem;
