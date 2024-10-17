@@ -119,7 +119,7 @@ export async function fetchLeaderboard() {
                 };
             const { completedLevels } = player[user];
             if (record.percent === 100) {
-                if(level.rank < 75){
+                if(rank < 75){
                     player[user].completedMainLevels++;
                 }
                 else {
