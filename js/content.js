@@ -117,13 +117,13 @@ export async function fetchLeaderboard() {
                 completedLegacyLevels: 0,
                 packsComplete: [],
                 };
-            const { completedLevels, completedLegacyLevels, completedMainLevels } = player[user];
+            const { completedLevels } = player[user];
             if (record.percent === 100) {
                 if(level.rank < 75){
-                    completedMainLevels++;
+                    player[user].completedMainLevels++;
                 }
                 else {
-                    completedLegacyLevels++;
+                    player[user].completedLegacyLevels++;
                 }
                 completedLevels.push({
                     rank: rank + 1,
