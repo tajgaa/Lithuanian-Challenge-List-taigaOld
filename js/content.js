@@ -118,7 +118,7 @@ export async function fetchLeaderboard() {
                 packsComplete: [],
                 };
             const { completedLevels } = player[user];
-            if (record.percent === 100) 
+            if (record.percent === 100) {
                 if(level.rank < 75){
                     completedMainLevels++;
                 }
@@ -133,9 +133,9 @@ export async function fetchLeaderboard() {
                     path: level.path
                 });
                 return;
-            })
+            }
         });
-    };
+    });
 
     //Player completed packs
     for (let user of Object.entries(player)) {
