@@ -117,7 +117,7 @@ export async function fetchLeaderboard() {
                 completedLegacyLevels: 0,
                 packsComplete: [],
                 };
-            const { completedLevels } = player[user];
+            const { completedLevels, completedLegacyLevels, completedMainLevels } = player[user];
             if (record.percent === 100) {
                 if(level.rank < 75){
                     completedMainLevels++;
