@@ -112,6 +112,14 @@
     scale: 1;
     justify-content: center;
 }
+.page-leaderboard .player .stats-container .level-display{
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    width: 100%;
+    opacity: 70%;
+    text-align: center;
+
+}
 .page-leaderboard .player .stats-container .levels .level-display,
 .page-leaderboard .player .stats-container .extra .levels .level-display
  {
