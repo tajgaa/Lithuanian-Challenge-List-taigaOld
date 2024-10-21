@@ -9,5 +9,10 @@
     "password": "Free to copy",
     "records": [
         
+        {
+            "user": "Algirdas42",
+            "percent": 100
+        }
+
     ]
 }
