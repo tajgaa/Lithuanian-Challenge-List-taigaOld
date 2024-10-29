@@ -31,6 +31,10 @@
         {
             "user": "Velniukstis",
             "percent": 100
+        },
+        {
+            "user": "taiga",
+            "percent": 100
         }
     ]
 }
