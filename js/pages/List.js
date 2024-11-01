@@ -115,7 +115,7 @@ export default {
                         Po lygio įveikimo turi būti matomas "Level Complete" tekstas.
                     </p>
                     <p>
-                        Lygius pereikite kaip skirta. Jei skip/bug praleidžią didelę dalį lygio jūsų įveikimo tikrai nepriimsime.
+                        Lygius pereikite kaip skirta. Jei skip/bug praleidžią didelę dalį lygio jūsų įveikimo tikrai nepriimsime. Jei challenge esmė yra prastas matomumas ar kažkas panašaus, hack'ai "No Camera Zoom", "No Camera Move", "No Particles" ir "No Shaders" nėra leidžiami.
                     </p>
                     <h4>Challenge'ų submittinimo taisyklės:</h4>
                     <p>
