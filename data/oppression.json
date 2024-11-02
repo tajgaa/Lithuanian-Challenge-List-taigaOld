@@ -8,7 +8,10 @@
     "percentToQualify": "100",
     "NONG": "data/NONGS/649922.mp3",
     "records": [
-
+        {
+            "user": "Velniukstis",
+            "percent": 100
+          }
 
 
     ]
