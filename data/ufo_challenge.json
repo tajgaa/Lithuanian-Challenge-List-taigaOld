@@ -1,0 +1,23 @@
+ {
+    "id": 111523845,
+    "name": "Ufo Challenge",
+    "author": "zGytixss",
+    "creators": ["zGytixss", "S3N1"],
+    "verifier": "hextorus",
+    "verification": "https://youtu.be/3YFAYS4oatQ",
+    "percentToQualify": "100",
+    "password": "",
+    "records" : [
+
+        {
+            "user": "S3N1",
+            "link": "https://youtu.be/NoEIPThmk2U",
+            "percent": 100
+        },
+        {
+            "user": "Velniukstis",
+            "percent": 100
+        }
+    ]
+ }   
+    
