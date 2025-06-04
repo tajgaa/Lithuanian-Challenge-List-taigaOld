@@ -119,6 +119,7 @@
 .page-list .level-container .level .records .enjoyment,
 .page-list .level-container .level .records .hz {
     text-align: end;
+    text-decoration:solid;
 }
 .page-list .meta-container .og a:hover,
 .page-list .level-container .level .records a:hover {
