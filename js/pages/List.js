@@ -74,8 +74,8 @@ export default {
                                 <p>{{ record.hz }}</p>
                             </td>
                             <td class="enjoyments">
-                            <p v-if="record.enjoyment" target="null" class="type-label-lg">nėra</p>
-                            <p v-else class="type-label-lg">{{record.enjoyment}}</p>
+                            <a v-if="record.enjoyment" target="null" class="type-label-lg">nėra</a>
+                            <a v-else class="type-label-lg">{{ record.enjoyment }}</a>
                             </td>
                         </tr>
                     </table>
