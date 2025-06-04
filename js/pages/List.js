@@ -64,9 +64,6 @@ export default {
                     <h2>Rekordai</h2>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
-                            <td class="percent">
-                                <p>{{ record.percent }}%</p>
-                            </td>
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
