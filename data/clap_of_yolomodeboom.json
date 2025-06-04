@@ -5,32 +5,31 @@
     "creators": ["functionxd"],
     "verifier": "yolomodeboom",
     "verification": "https://www.youtube.com/watch?v=vSMfGjjy4lE",
-    "percentToQualify": "100",
     "password": "free to copy",
     "records": [
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "harmyko",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "taiga",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ArcticEggz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

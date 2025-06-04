@@ -5,59 +5,58 @@
     "creators": ["functionxd", "Slick", "taiga"],
     "verifier": "taiga",
     "verification": "https://www.youtube.com/watch?v=V-M_Sektw2M",
-    "percentToQualify": "100",
     "records": [
         {
           "user": "KandyMan",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Algirdas42",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "functionxd",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "xtrapnationx",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Slick",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "ta1p",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Scizorz",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "ZonerG",
-          "percent": 100
+          "enjoyment": 100
         },
         {
             "user": "NojusGaminGG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "zGytixss",
-            "percent": 100
+            "enjoyment": 100
         },
         {
           "user": "hextorus",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Griance",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "S3N1",
-          "percent": 100
+          "enjoyment": 100
         }
 
     ]

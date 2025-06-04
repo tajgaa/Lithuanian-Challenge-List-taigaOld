@@ -5,24 +5,23 @@
     "creators": ["KandyMan"],
     "verifier": "KandyMan",
     "verification": "https://www.youtube.com/watch?v=oSiwGuWXbT4",
-    "percentToQualify": "100",
     "password": "",
     "records": [
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "danz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

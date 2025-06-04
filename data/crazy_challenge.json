@@ -5,41 +5,40 @@
     "creators": ["taiga"],
     "verifier": "taiga",
     "verification": "https://youtu.be/ZZce23iNfFg",
-    "percentToQualify": "100",
     "password": "",
     "records": [
         {
             "user": "functionxd",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "danz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "xtrapnationx",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Slick",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "S3N1",
             "link": "https://www.youtube.com/watch?v=4fJ7xGy1H9M",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

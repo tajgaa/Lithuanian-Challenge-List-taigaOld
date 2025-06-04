@@ -5,36 +5,35 @@
     "creators": ["ZygisDij"],
     "verifier": "ZygisDij",
     "verification": "https://youtu.be/ejWNEZF4U6I",
-    "percentToQualify": "100",
     "password": "",
     "records": [
         {
             "user": "harmyko",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "yolomodeboom",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "taiga",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "S3N1",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]
