@@ -5,48 +5,47 @@
     "creators": ["harmyko","Slick","functionxd","Algirdas42","xtrapnationx"],
     "verifier": "harmyko",
     "verification": "https://youtu.be/7ZlQSylJc9A",
-    "percentToQualify": "100",
-    "password": "Free to copy",
+       "password": "Free to copy",
     "records": [
         {
             "user": "Kovaldas",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "yolomodeboom",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "xtrapnationx",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "functionxd",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "wagneris",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "hextorus",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Velniukstis",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

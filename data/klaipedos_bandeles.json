@@ -5,29 +5,28 @@
     "creators": ["Velniukstis"],
     "verifier": "Velniukstis",
     "verification": "https://youtu.be/7CEc_0EfoT8",
-    "percentToQualify": "100",
-    "password": "Free to copy",
+       "password": "Free to copy",
     "records": [
         {
           "user": "KandyMan",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "ta1p",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "hextorus",
           "link": "https://youtu.be/u3C-613CmzY",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Algirdas42",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "ZonerG",
-          "percent": 100
+          "enjoyment": 100
         }
     ]
 }

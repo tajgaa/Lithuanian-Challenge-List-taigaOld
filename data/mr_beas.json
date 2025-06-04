@@ -5,16 +5,15 @@
     "creators": ["Griance"],
     "verifier": "KandyMan",
     "verification": "https://youtu.be/aXvO8Xb4ZZA",
-    "percentToQualify": "100",
-    "password": "",
+       "password": "",
     "records": [
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

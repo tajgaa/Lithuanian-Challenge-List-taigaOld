@@ -11,28 +11,28 @@
 
         {
             "user": "danz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "S3N1",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
             "link": "https://www.youtube.com/watch?v=7Dx0gFnX9pA",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Velniukstis",
-            "percent": 100
+            "enjoyment": 100
         }
 
     ]

@@ -5,36 +5,35 @@
     "creators": ["Soverney"],
     "verifier": "Soverney",
     "verification": "https://youtu.be/BJ98UDfTtek",
-    "percentToQualify": "100",
-    "password": "",
+       "password": "",
     "records": [
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "functionxd",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "danz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "hextorus",
-            "percent": 100
+            "enjoyment": 100
         }
     ]
 }

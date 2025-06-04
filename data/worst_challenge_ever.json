@@ -5,32 +5,31 @@
     "creators": ["functionxd"],
     "verifier": "KandyMan",
     "verification": "https://youtu.be/XvKzgJGziIY",
-    "percentToQualify": "100",
-    "password": "",
+       "password": "",
     "records": [
         {
             "user": "functionxd",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "S3N1",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "hextorus",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

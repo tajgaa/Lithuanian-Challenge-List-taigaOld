@@ -5,24 +5,23 @@
     "creators": ["ZygisDij"],
     "verifier": "ZygisDij",
     "verification": "https://youtu.be/X0iaDxMj1sk",
-    "percentToQualify": "100",
-    "password": "",
+       "password": "",
     "records": [
         {
             "user": "yolomodeboom",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         }
     ]
 }

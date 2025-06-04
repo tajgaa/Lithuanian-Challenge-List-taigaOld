@@ -5,24 +5,23 @@
     "creators": ["Slick","ta1p"],
     "verifier": "ta1p",
     "verification": "https://www.youtube.com/watch?v=hscN0dqA0Ic",
-    "percentToQualify": "100",
-    "password": "Free to copy",
+       "password": "Free to copy",
     "records": [
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Velniukstis",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

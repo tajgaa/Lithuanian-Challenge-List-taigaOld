@@ -5,13 +5,12 @@
     "creators": ["functionxd","Slick","Soverney","Griance","taiga","TopHatMark","ta1p","Algirdas42","ZygisDij"],
     "verifier": "KandyMan",
     "verification": "https://www.youtube.com/watch?v=ZsaXAbSDYQg",
-    "percentToQualify": "100",
-    "password": "Free to copy",
+       "password": "Free to copy",
     "records": [
         
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         }
 
     ]

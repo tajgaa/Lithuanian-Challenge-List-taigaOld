@@ -118,7 +118,7 @@ export async function fetchLeaderboard() {
                 packsComplete: [],
                 };
             const { completedLevels } = player[user];
-            if (record.percent === 100) {
+            if (record.enjoyment === 100) {
                 if(rank < 75){
                     player[user].completedMainLevels++;
                 }
@@ -219,7 +219,7 @@ export async function fetchPackLevels(packname) {
                             level,
                             path,
                             records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
+                                (a, b) => b.enjoyment - a.enjoyment,
                             ),
                         },
                         null,

@@ -64,7 +64,7 @@ export default {
                     <h2>Rekordai</h2>
                     <table class="records">
                         <tr v-for="record in selectedPackLevels[selectedLevel][0].records" class="record">
-                            <td class="percent">
+                            <td class="enjoyment">
                                 <p>100%</p>
                             </td>
                             <td class="user">

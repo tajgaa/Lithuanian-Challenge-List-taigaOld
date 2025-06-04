@@ -5,17 +5,16 @@
     "creators": ["Scizorz"],
     "verifier": "ta1p",
     "verification": "https://youtu.be/HhCH74aqrbo",
-    "percentToQualify": "100",
-    "password": "Free to copy",
+       "password": "Free to copy",
     "records": [
 
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

@@ -11,19 +11,19 @@
         {
             "user": "yolomodeboom",
             "link": "",
-            "percent": 100,
+            "enjoyment": 100,
             "hz": ""
         },
         {
             "user": "ta1p",
             "link": "",
-            "percent": 100,
+            "enjoyment": 100,
 
             "hz": ""
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

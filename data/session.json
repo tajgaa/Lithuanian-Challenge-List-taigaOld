@@ -5,17 +5,16 @@
     "creators": ["zGytixss"],
     "verifier": "hextorus",
     "verification": "https://youtu.be/ejwGJ3uEBno",
-    "percentToQualify": "100",
-    "password": "",
+       "password": "",
     "records": [
 
         {
             "user": "Velniukstis",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         }
 
     ]

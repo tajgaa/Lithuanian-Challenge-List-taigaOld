@@ -49,7 +49,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Taškų vertė</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(selected + 1, 100, level.enjoymentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Lygio ID</div>

@@ -61,7 +61,7 @@ export default {
                                 <p>{{ currentLevel.id }}</p>
                             </div>
                             <form class="actions" v-if="!givenUp">
-                                <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage" max=100>
+                                <input type="number" v-model="enjoymentage" :placeholder="placeholder" :min="currentenjoymentage" max=100>
                                 <Btn @click.native.prevent="onDone">Baigta</Btn>
                                 <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Pasiduoti</Btn>
                             </form>
@@ -71,22 +71,22 @@ export default {
                         <div v-if="givenUp || hasCompleted" class="results">
                             <h1>Rezultatai</h1>
                             <p>Lygių kiekis: {{ progression.length }}</p>
-                            <p>Aukščiausi procentai: {{ currentPercentage - 5 }}%</p>
-                            <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Parodyti likusius lygius</Btn>
+                            <p>Aukščiausi procentai: {{ currentenjoymentage - 5 }}%</p>
+                            <Btn v-if="currentenjoymentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Parodyti likusius lygius</Btn>
                         </div>
 
                         <!-- Uncompleted level display after giving up -->
                         <template v-if="givenUp && showRemaining">
                             <div class="level" v-for="(level, i) in levels.slice(progression.length, levels.length+1)">
-                            <template v-if="(currentPercentage + 5*i < 105)">
+                            <template v-if="(currentenjoymentage + 5*i < 105)">
                                 <a :href="level.video" target="_blank" class="video">
                                     <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
                                 </a>
                                 <div class="meta">
                                     <p>#{{ level.rank }}</p>
                                     <h2>{{ level.name }}</h2>
-                                    <p v-if="currentPercentage + 5*i > 100" style="color: #d50000; font-weight: 700">100%</p>
-                                    <p v-else style="color: #d50000; font-weight: 700">{{ currentPercentage + 5*i }}%</p>
+                                    <p v-if="currentenjoymentage + 5*i > 100" style="color: #d50000; font-weight: 700">100%</p>
+                                    <p v-else style="color: #d50000; font-weight: 700">{{ currentenjoymentage + 5*i }}%</p>
                                 </div>
                             </div>
                             </template>
@@ -106,8 +106,8 @@ export default {
     data: () => ({
         loading: false,
         levels: [],
-        progression: [], // list of percentages completed
-        percentage: undefined,
+        progression: [], // list of enjoymentages completed
+        enjoymentage: undefined,
         givenUp: false,
         showRemaining: false,
         useMainList: true,
@@ -138,7 +138,7 @@ export default {
         {
             return this.levels[this.progression.length];
         },
-        currentPercentage() //holds the current required percentage
+        currentenjoymentage() //holds the current required enjoymentage
         {
             if(this.progression[this.progression.length - 1] == null){
                 return 5;
@@ -152,16 +152,16 @@ export default {
                 return this.progression[this.progression.length - 1] + 5;
             }
         },
-        placeholder() //holds the next percentage for displaying the requirement for the next level in the roulette
+        placeholder() //holds the next enjoymentage for displaying the requirement for the next level in the roulette
         {
-            // if (this.currentPercentage >= 95)
+            // if (this.currentenjoymentage >= 95)
             // {
             //     return `Bent 100%`;
             // } 
             // else {
-            //     return `Bent ${this.currentPercentage}%`;
+            //     return `Bent ${this.currentenjoymentage}%`;
             // }
-            return `Bent ${this.currentPercentage}%`
+            return `Bent ${this.currentenjoymentage}%`
             
         },
         hasCompleted() //called whenever the roulette is complete, probably.
@@ -223,7 +223,7 @@ export default {
             this.showRemaining = false;
             this.givenUp = false;
             this.progression = [];
-            this.percentage = undefined;
+            this.enjoymentage = undefined;
 
             this.loading = false;
         },
@@ -237,16 +237,16 @@ export default {
             );
         },
         onDone() {
-            if (!this.percentage) {
+            if (!this.enjoymentage) {
                 return;
             }
-            if (this.percentage < this.currentPercentage || this.percentage > 100) 
+            if (this.enjoymentage < this.currentenjoymentage || this.enjoymentage > 100) 
             {
                 this.showToast('Netinkami procentai.');
                 return;
             }
-            this.progression.push(this.percentage);
-            this.percentage = undefined;
+            this.progression.push(this.enjoymentage);
+            this.enjoymentage = undefined;
             this.save();
         },
         onGiveUp() {
@@ -287,7 +287,7 @@ export default {
                 this.save();
                 this.givenUp = false;
                 this.showRemaining = false;
-                this.percentage = undefined;
+                this.enjoymentage = undefined;
             } catch {
                 this.showToast('Neteisingas failas.');
                 return;

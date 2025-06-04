@@ -5,47 +5,46 @@
     "creators": ["functionxd"],
     "verifier": "functionxd",
     "verification": "https://www.youtube.com/watch?v=EZtAJ5F5sPo",
-    "percentToQualify": "100",
-    "records": [
+       "records": [
         {
           "user": "danz",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Algirdas42",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "taiga",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "KandyMan",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "Velniukstis",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "ta1p",
-          "percent": 100
+          "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Slick",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "zGytixss",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Scizorz",
-            "percent": 100
+            "enjoyment": 100
         }
     ]
 }

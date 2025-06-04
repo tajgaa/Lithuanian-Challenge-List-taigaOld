@@ -5,17 +5,16 @@
     "creators": ["S3N1"],
     "verifier": "S3N1",
     "verification": "https://www.youtube.com/watch?v=-RlxmmUusIA",
-    "percentToQualify": "100",
-    "password": "",
+       "password": "",
     "records": [
 
         {
             "user": "hextorus",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         }
 
     ]
