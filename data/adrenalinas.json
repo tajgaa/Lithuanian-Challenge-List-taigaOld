@@ -5,28 +5,27 @@
     "creators": ["Algirdas42"],
     "verifier": "Algirdas42",
     "verification": "https://youtu.be/_Fa8hGs-2uk",
-    "percentToQualify": "100",
     "password": "",
     "records": [
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "NojusGaminGG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZygisDij",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

@@ -5,41 +5,40 @@
     "creators": ["taiga"],
     "verifier": "taiga",
     "verification": "https://youtu.be/3_ZLAQArc24",
-    "percentToQualify": "100",
     "NONG": "data/NONGS/365.mp3",
     "password": "",
     "records": [
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Slick",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
           "user": "S3N1",
-          "percent": 100
+          "enjoyment": 100
         },
         {
             "user": "danz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "functionxd",
-            "percent": 100
+            "enjoyment": 100
         }
     ]
 }

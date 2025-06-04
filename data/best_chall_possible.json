@@ -6,39 +6,38 @@
     "verifier": "taiga",
     "verification": "https://youtu.be/moJzok2tVD4",
     "NONG":"data/NONGS/1001111.mp3",
-    "password": "Free to copy",
     "records": [
         {
             "user": "KandyMan",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "yolomodeboom",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Velniukstis",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "hextorus",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "S3N1",
-            "percent": 100
+            "enjoyment": 100
         }
         
     ]

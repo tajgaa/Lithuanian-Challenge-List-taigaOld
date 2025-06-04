@@ -5,59 +5,57 @@
     "creators": ["functionxd","taiga"],
     "verifier": "taiga",
     "verification": "https://youtu.be/7ghbpjUkCY4",
-    "percentToQualify": "100",
-    "password": "Free to copy",
     "records": [
         {
             "user": "yolomodeboom",
-            "percent": 100
+            "enjoyment": 100
             
           },
           {
             "user": "harmyko",
-            "percent": 100
+            "enjoyment": 100
           },
           {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
             },
           {
             "user": "KandyMan",
             "link": "",
-            "percent": 100
+            "enjoyment": 100
             },
           {
             "user": "iDinamte",
-            "percent": 100
+            "enjoyment": 100
             },
           {
             "user": "ZygisDij",
-            "percent": 100
+            "enjoyment": 100
             
           },
           {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
             },
         {
             "user": "ArcticEggz",
-            "percent": 100
+            "enjoyment": 100
             },
         {
             "user": "danz",
-            "percent": 100
+            "enjoyment": 100
         },
         {
           "user": "wagneris",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "ZonerG",
-          "percent": 100
+          "enjoyment": 100
         },
         {
           "user": "S3N1",
-          "percent": 100
+          "enjoyment": 100
         }
         
     ]

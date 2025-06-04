@@ -5,28 +5,27 @@
     "creators": ["Slick"],
     "verifier": "Slick",
     "verification": "https://www.youtube.com/watch?v=huNSXZxrDtw",
-    "percentToQualify": "100",
     "NONG": "data/NONGS/1132064.mp3",
     "records": [
         {
             "user": "ta1p",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "xtrapnationx",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "S3N1",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "Algirdas42",
-            "percent": 100
+            "enjoyment": 100
         },
         {
             "user": "ZonerG",
-            "percent": 100
+            "enjoyment": 100
         }
     ]
 }
