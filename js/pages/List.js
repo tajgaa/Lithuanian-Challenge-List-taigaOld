@@ -73,6 +73,9 @@ export default {
                             <td class="hz">
                                 <p>{{ record.hz }}</p>
                             </td>
+                            <td class="enjoyments">
+                                <p>{{ record.enjoyment }}</p>
+                            </td>
                         </tr>
                     </table>
                 </div>
