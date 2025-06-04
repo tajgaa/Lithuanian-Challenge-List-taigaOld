@@ -8,91 +8,95 @@
        "records": [
         {
             "user": "xtrapnationx",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Slick",
-            "enjoyment": 100
+            "enjoyment": 7.5
         },
         {
             "user": "functionxd",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 10
         },
         {
             "user": "Kovaldas",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "RiVeLqZ",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "danz",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "iDinamte",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ArcticEggz",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "Luucid",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "harmyko",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "yolomodeboom",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Veikkies",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "BenVyt",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "feit",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "wagneris",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 1
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "zGytixss",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "hextorus",
-            "enjoyment": 100
+            "enjoyment": null
+        },
+        {
+            "user": "Scizorz",
+            "enjoyment": 5.5
         }
     ]
 }

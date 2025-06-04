@@ -9,79 +9,75 @@
     "records": [
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Slick",
-            "enjoyment": 100
+            "enjoyment": 8.5
         },
         {
             "user": "functionxd",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "feit",
-            "enjoyment": 100
-        },
-        {
-            "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 2
         },
         {
             "user": "Kovaldas",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "iDinamte",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "danz",
-            "enjoyment": 100
+            "enjoyment": 3.5
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "harmyko",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ArcticEggz",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "taiga",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Luucid",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Riz",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Scizorz",
-            "enjoyment": 100
+            "enjoyment": 4
         },
         {
             "user": "ZygisDij",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "yolomodeboom",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Veikkies",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "BenVyt",
-            "enjoyment": 100
+            "enjoyment": null
         }
     ]
 }

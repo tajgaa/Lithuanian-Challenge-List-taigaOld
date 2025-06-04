@@ -11,28 +11,28 @@
 
         {
             "user": "danz",
-            "enjoyment": 100
+            "enjoyment": 4.5
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 6.5
         },
         {
             "user": "ZonerG",
             "link": "https://www.youtube.com/watch?v=7Dx0gFnX9pA",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 4
         }
 
     ]

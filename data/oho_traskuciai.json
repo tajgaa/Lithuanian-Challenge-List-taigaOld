@@ -8,23 +8,23 @@
        "records": [
         {
             "user": "ZygisDij",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "Scizorz",
-            "enjoyment": 100
+            "enjoyment": 6.5
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 1
         }
     ]
 }

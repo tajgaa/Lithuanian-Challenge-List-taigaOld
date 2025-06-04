@@ -10,20 +10,15 @@
     "records": [
         {
             "user": "yolomodeboom",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "link": "",
-            "enjoyment": 100,
-
-            "hz": ""
+            "enjoyment": 9
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7.5
         }
         
     ]

@@ -8,31 +8,31 @@
        "records": [
         {
           "user": "danz",
-          "enjoyment": 100
+          "enjoyment": 5
         },
         {
           "user": "Algirdas42",
-          "enjoyment": 100
+          "enjoyment": 7
         },
         {
           "user": "functionxd",
-          "enjoyment": 100
+          "enjoyment": 6
         },
         {
           "user": "xtrapnationx",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "ta1p",
-          "enjoyment": 100
+          "enjoyment": 4
         },
         {
           "user": "Velniukstis",
-          "enjoyment": 100
+          "enjoyment": 2
         },
         {
           "user": "taiga",
-          "enjoyment": 100
+          "enjoyment": null
         }
     ]
 }

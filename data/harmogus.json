@@ -8,59 +8,59 @@
     "records": [
         {
           "user": "taiga",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "ZygisDij",
-          "enjoyment": 100
+          "enjoyment": 8
         },
         {
           "user": "Algirdas42",
-          "enjoyment": 100
+          "enjoyment": 9
         },
         {
           "user": "functionxd",
-          "enjoyment": 100
+          "enjoyment": 1
         },
         {
           "user": "danz",
-          "enjoyment": 100
+          "enjoyment": 4.5
         },
         {
           "user": "xtrapnationx",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "KandyMan",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "Kovaldas",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "RiVeLqZ",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "harmyko",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "yolomodeboom",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "Veikkies",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "ArcticEggz",
-          "enjoyment": 100
+          "enjoyment": 6
         },
         {
           "user": "ta1p",
-          "enjoyment": 100
+          "enjoyment": 1
         }
     ]
 }

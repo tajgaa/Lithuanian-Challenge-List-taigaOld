@@ -9,23 +9,23 @@
     "records": [
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 2
         },
         {
             "user": "NojusGaminGG",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ZygisDij",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 3
         }
         
     ]

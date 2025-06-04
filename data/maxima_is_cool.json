@@ -9,44 +9,44 @@
     "records": [
         {
             "user": "functionxd",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 3.5
         },
         {
             "user": "xtrapnationx",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "iDinamte",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "danz",
-            "enjoyment": 100
+            "enjoyment": 8.5
         },
         {
             "user": "S3N1",
             "link": "https://www.youtube.com/watch?v=7t83OAmb-Dk",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "taiga",
-            "enjoyment": 100
+            "enjoyment": 5
         }
     ]
 }

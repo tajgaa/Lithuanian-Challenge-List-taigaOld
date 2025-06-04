@@ -9,63 +9,47 @@
     "records": [
         {
             "user": "KandyMan",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": null
         },
         {
             "user": "Slick",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": 1
         },
         {
             "user": "danz",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": 3
         },
         {
             "user": "ta1p",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": 4
         },
         {
             "user": "functionxd",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": 4
         },
         {
             "user": "taiga",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": null
         },
         {
             "user": "Algirdas42",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": 2.5
         },
         {
             "user": "Veikkies",
-            "link": "",
-            "enjoyment": 100,
-            "hz": ""
+            "enjoyment": null
         },
         {
             "user": "wagneris",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "BenVyt",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "NojusGaminGG",
-            "enjoyment": 100
+            "enjoyment": null
         }
     ]
 }

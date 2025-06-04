@@ -9,19 +9,19 @@
     "records": [
         {
             "user": "yolomodeboom",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7.5
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 7
         }
     ]
 }

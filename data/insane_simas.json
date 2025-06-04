@@ -8,16 +8,16 @@
        "records": [
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 2
         },
         {
             "user": "functionxd",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "ZygisDij",
             "link": "https://www.youtube.com/watch?v=ZR0hA19NSqQ",
-            "enjoyment": 100
+            "enjoyment": 9
         }
     ]
 }

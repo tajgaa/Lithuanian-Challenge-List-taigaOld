@@ -8,35 +8,35 @@
     "records": [
         {
           "user": "Algirdas42",
-          "enjoyment": 100
+          "enjoyment": 9
         },
         {
           "user": "functionxd",
-          "enjoyment": 100
+          "enjoyment": 5
         },
         {
           "user": "xtrapnationx",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "Slick",
-          "enjoyment": 100
+          "enjoyment": 6
         },
         {
           "user": "ta1p",
-          "enjoyment": 100
+          "enjoyment": 7
       },
          {
           "user": "wagneris",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Scizorz",
-            "enjoyment": 100
+            "enjoyment": 4.5
         }
     ]
 }

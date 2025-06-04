@@ -10,31 +10,31 @@
     "records": [
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 4
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 3.5
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "hextorus",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "taiga",
-            "enjoyment": 100
+            "enjoyment": 6
         }
     ]
 }

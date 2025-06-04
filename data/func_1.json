@@ -9,52 +9,52 @@
     "records": [
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "harmyko",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "yolomodeboom",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "Veikkies",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "iDinamte",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "xtrapnationx",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "taiga",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Slick",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 0
         },
         {
             "user": "S3N1",
             "link": "https://www.youtube.com/watch?v=4-WfKn0pMts",
-            "enjoyment": 100
+            "enjoyment": 2
         }
         
     ]

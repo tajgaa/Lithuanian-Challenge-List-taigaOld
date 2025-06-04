@@ -9,23 +9,23 @@
     "records": [
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7.5
         },
         {
             "user": "functionxd",
-            "enjoyment": 100
+            "enjoyment": 9.5
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "xtrapnationx",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 3
         }
     ]
 }

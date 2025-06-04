@@ -10,19 +10,19 @@
     "records": [
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 10
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 8.5
         }
        
         

@@ -9,15 +9,15 @@
     "records": [
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "Scizorz",
-            "enjoyment": 100
+            "enjoyment": 2.5
         }
         
     ]

@@ -10,19 +10,19 @@
 
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "Slick",
-            "enjoyment": 100
+            "enjoyment": 7
         }
 
     ]

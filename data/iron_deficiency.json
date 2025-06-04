@@ -8,12 +8,16 @@
        "password": "",
     "records": [
         {
+            "user": "danz",
+            "enjoyment": 6.9
+        },
+        {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": null
         }
     ]
 }

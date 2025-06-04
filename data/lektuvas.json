@@ -8,15 +8,15 @@
        "records": [
         {
           "user": "ta1p",
-          "enjoyment": 100
+          "enjoyment": 2.3
         },
         {
           "user": "Algirdas42",
-          "enjoyment": 100
+          "enjoyment": 1
         },
         {
           "user": "hextorus",
-          "enjoyment": 100
+          "enjoyment": 0
         }
     ]
 }

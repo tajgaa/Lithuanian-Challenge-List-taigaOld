@@ -10,28 +10,28 @@
 
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "hextorus",
             "link": "https://www.youtube.com/watch?v=GUHPnHfTE1g",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 4.5
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 4
         },
         {
             "user": "taiga",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 4
         }
 
     ]

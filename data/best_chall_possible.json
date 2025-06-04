@@ -9,35 +9,35 @@
     "records": [
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "yolomodeboom",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 9
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "hextorus",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 5
         }
         
     ]

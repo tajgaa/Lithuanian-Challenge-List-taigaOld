@@ -10,31 +10,31 @@
     "records": [
         {
             "user": "iDinamte",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 9
         },
         {
             "user": "ZygisDij",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "xtrapnationx",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 8
         }
         
     ]

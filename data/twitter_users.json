@@ -9,39 +9,39 @@
     "records": [
         {
           "user": "xtrapnationx",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "functionxd",
-          "enjoyment": 100
+          "enjoyment": 4
         },
         {
           "user": "Slick",
-          "enjoyment": 100
+          "enjoyment": 6
         },
         {
           "user": "KandyMan",
-          "enjoyment": 100
+          "enjoyment": null
         },
         {
           "user": "Algirdas42",
-          "enjoyment": 100
+          "enjoyment": 7
         },
          {
           "user": "wagneris",
-          "enjoyment": 100
+          "enjoyment": null
         },
          {
           "user": "feit",
-          "enjoyment": 100
+          "enjoyment": null
         },
          {
           "user": "Griance",
-          "enjoyment": 100
+          "enjoyment": 0.5
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 2
         }
     ]
 }

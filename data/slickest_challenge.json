@@ -9,47 +9,51 @@
     "records": [
         {
             "user": "danz",
-            "enjoyment": 100
+            "enjoyment": 10
         },
         {
             "user": "functionxd",
-            "enjoyment": 100
+            "enjoyment": 8
         },
         {
             "user": "Algirdas42",
-            "enjoyment": 100
+            "enjoyment": 7
         },
         {
             "user": "KandyMan",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ta1p",
-            "enjoyment": 100
+            "enjoyment": 8.5
         },
         {
             "user": "xtrapnationx",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ZonerG",
-            "enjoyment": 100
+            "enjoyment": 3
         },
         {
             "user": "NojusGaminGG",
-            "enjoyment": 100
+            "enjoyment": null
         },
         {
             "user": "ArcticEggz",
-            "enjoyment": 100
+            "enjoyment": 6
         },
         {
             "user": "S3N1",
-            "enjoyment": 100
+            "enjoyment": 5
         },
         {
             "user": "Velniukstis",
-            "enjoyment": 100
+            "enjoyment": 7
+        },
+        {
+            "user": "Scizorz",
+            "enjoyment": 0
         }
         
     ]
