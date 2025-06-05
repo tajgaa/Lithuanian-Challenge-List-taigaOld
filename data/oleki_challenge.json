@@ -1,8 +1,8 @@
 {
     "id": 80259516,
     "name": "oleki challenge",
-    "author": "functionxd",
-    "creators": ["functionxd"],
+    "author": "TopHatMark",
+    "creators": ["TopHatMark"],
     "verifier": "TopHatMark",
     "verification": "https://www.youtube.com/watch?v=e4tYis8LBS4",
        "records": [
@@ -16,7 +16,7 @@
         },
         {
           "user": "taiga",
-          "enjoyment": null
+          "enjoyment": 9
         },
         {
           "user": "harmyko",
