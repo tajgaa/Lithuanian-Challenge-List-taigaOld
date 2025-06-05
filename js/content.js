@@ -118,7 +118,7 @@ export async function fetchLeaderboard() {
                 packsComplete: [],
                 };
             const { completedLevels } = player[user];
-            if (record.enjoyment === 100) {
+            {
                 if(rank < 75){
                     player[user].completedMainLevels++;
                 }
