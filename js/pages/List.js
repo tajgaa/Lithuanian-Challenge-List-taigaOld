@@ -174,7 +174,7 @@ export default {
             var enjoymentSum = 0;
             var enjoymentCount = 0;
             this.list[this.selected][0].records.map((record) => {
-                if(record.enjoyment >= 0 && record.enjoyment <= 10){
+                if(record.enjoyment >= 0 && record.enjoyment <= 10 && record.enjoyment != null){
                     enjoymentSum += record.enjoyment
                     enjoymentCount++
                 }
