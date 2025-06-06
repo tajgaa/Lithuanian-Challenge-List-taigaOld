@@ -57,7 +57,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Vidutinis enjoyment</div>
-                            <p v-if="enjoyment != null" class="enjoyment" :src="enjoyment">{{enjoyment}}</p>
+                            <p v-if="enjoyment != null" class="enjoyment" :src="enjoyment">{{enjoyment}}/10</p>
                             <p v-else class="enjoyment">Nėra vertinimų</p>
                         </li>
                     </ul>
@@ -180,7 +180,7 @@ export default {
             })
 
             if(enjoymentCount > 0 && enjoymentCount){
-                return enjoymentSum/enjoymentCount
+                return (enjoymentSum/enjoymentCount).toFixed(2)
             }
             else{
                 return null
