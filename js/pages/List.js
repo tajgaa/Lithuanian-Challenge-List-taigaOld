@@ -57,7 +57,8 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Vidutinis enjoyment</div>
-                            <p class="enjoyment" :src="enjoyment">{{enjoyment}}</p>
+                            <p v-if="enjoyment != null" class="enjoyment" :src="enjoyment">{{enjoyment}}</p>
+                            <p v-else class="enjoyment">Nėra vertinimų</p>
                         </li>
                     </ul>
                     <div class="nong" v-if="level.NONG != undefined">
@@ -182,7 +183,7 @@ export default {
                 return enjoymentSum/enjoymentCount
             }
             else{
-                return "Nėra vertinimo"
+                return null
             }
         }
     },
