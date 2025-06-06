@@ -57,7 +57,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Vidutinis enjoyment</div>
-                            <p class="enjoyment" :src="enjoyment"></p>
+                            <p class="enjoyment" :src="enjoyment">{{enjoyment}}</p>
                         </li>
                     </ul>
                     <div class="nong" v-if="level.NONG != undefined">
