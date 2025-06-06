@@ -24,7 +24,8 @@ export async function fetchList() {
                             packs,
                             path,
                             records: level.records,
-                        }
+                        }, 
+                        null
                     );
                 } catch {
                     console.error(`Nepavyko užkrauti lygio: #${rank + 1} ${path}.`);
