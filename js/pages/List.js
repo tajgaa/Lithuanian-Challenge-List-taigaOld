@@ -151,6 +151,8 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
+        enjoymentSum,
+        enjoymentCount,
         store
     }),
     computed: {
