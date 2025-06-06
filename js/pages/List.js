@@ -49,11 +49,15 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Taškų vertė</div>
-                            <p>{{ score(selected + 1, 100, level.enjoymentToQualify) }}</p>
+                            <p>{{ score(selected + 1, 100, 100) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Lygio ID</div>
                             <p>{{ level.id }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Vidutinis enjoyment</div>
+                            <p class="enjoyment" :src="enjoyment"></p>
                         </li>
                     </ul>
                     <div class="nong" v-if="level.NONG != undefined">
@@ -67,14 +71,8 @@ export default {
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
-                            <td class="mobile">
-                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
-                            </td>
-                            <td class="hz">
-                                <p>{{ record.hz }}</p>
-                            </td>
                             <td class="enjoyment">
-                                <p>{{ record.enjoyment }}</p>
+                                <p>Enjoyment: {{ record.enjoyment }}/10</p>
                             </td>
                         </tr>
                     </table>
@@ -170,6 +168,23 @@ export default {
                     : this.level.verification
             );
         },
+        enjoyment(){
+            enjoymentSum = 0;
+            enjoymentCount = 0;
+            this.list[selected][0].map((record) => {
+                if(record.enjoyment >= 0 && record.enjoyment <= 10){
+                    enjoymentSum += record.enjoyment
+                    enjoymentCount++
+                }
+            })
+
+            if(enjoymentCount > 0){
+                return enjoymentSum/enjoymentCount
+            }
+            else{
+                return "Nėra vertinimo"
+            }
+        }
     },
     async mounted() {
         // Hide loading spinner
