@@ -7,9 +7,11 @@ import { underscoreToWhitespace } from './util.js';
 const dir = '/data';
 
 export async function fetchList() {
-    const list = await (await fetch(`${dir}/_list.json`)).json();
-    const packsList = await (await fetch(`${dir}/_packlist.json`)).json();
+    const listResult = await fetch(`${dir}/_list.json`);
+    const packResult = await fetch(`${dir}/_packlist.json`);
     try {
+        const list = await listResult.json();
+        const packsList = await packResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
@@ -25,7 +27,7 @@ export async function fetchList() {
                             path,
                             records: level.records,
                         },
-                        null
+                        null,
                     ];
                 } catch {
                     console.error(`Nepavyko užkrauti lygio: #${rank + 1} ${path}.`);
