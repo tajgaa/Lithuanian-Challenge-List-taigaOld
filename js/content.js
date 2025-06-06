@@ -7,11 +7,9 @@ import { underscoreToWhitespace } from './util.js';
 const dir = '/data';
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}/_list.json`);
-    const packResult = await fetch(`${dir}/_packlist.json`);
+    const list = await (await fetch(`${dir}/_list.json`)).json();
+    const packsList = await (await fetch(`${dir}/_packlist.json`)).json();
     try {
-        const list = await listResult.json();
-        const packsList = await packResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
@@ -20,15 +18,14 @@ export async function fetchList() {
                     let packs = packsList.filter((x) =>
                         x.levels.includes(path)
                     );
-                    return [
+                    return (
                         {
                             ...level,
                             packs,
                             path,
                             records: level.records,
-                        },
-                        null,
-                    ];
+                        }
+                    );
                 } catch {
                     console.error(`Nepavyko užkrauti lygio: #${rank + 1} ${path}.`);
                     return [null, path];

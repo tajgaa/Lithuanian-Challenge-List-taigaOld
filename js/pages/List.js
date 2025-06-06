@@ -155,7 +155,7 @@ export default {
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list[this.selected];
         },
         video() {
             if (!this.level.showcase) {
@@ -171,14 +171,14 @@ export default {
         enjoyment(){
             var enjoymentSum = 0;
             var enjoymentCount = 0;
-            this.list[selected][0].map((record) => {
+            this.list[selected].record.map((record) => {
                 if(record.enjoyment >= 0 && record.enjoyment <= 10){
                     enjoymentSum += record.enjoyment
                     enjoymentCount++
                 }
             })
 
-            if(enjoymentCount > 0){
+            if(enjoymentCount > 0 && enjoymentCount != null){
                 return enjoymentSum/enjoymentCount
             }
             else{
