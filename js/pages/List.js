@@ -73,9 +73,8 @@ export default {
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
                             <td class="user">
-                                <p>Enjoyment: {{ record.enjoyment }}/10</p>
-                                <p v-if="record.enjoyment != null">{{ record.enjoyment }}/10</p>
-                                <p v-else">Nenurodyta</p>
+                                <p class="usr-enjoyment" v-if="record.enjoyment != null">{{ record.enjoyment }}/10</p>
+                                <p class="usr-enjoyment" v-else">Nenurodyta</p>
                             </td>
                         </tr>
                     </table>
