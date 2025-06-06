@@ -151,8 +151,6 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        enjoymentSum,
-        enjoymentCount,
         store
     }),
     computed: {
@@ -171,8 +169,8 @@ export default {
             );
         },
         enjoyment(){
-            enjoymentSum = 0;
-            enjoymentCount = 0;
+            var enjoymentSum = 0;
+            var enjoymentCount = 0;
             this.list[selected][0].map((record) => {
                 if(record.enjoyment >= 0 && record.enjoyment <= 10){
                     enjoymentSum += record.enjoyment
