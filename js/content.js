@@ -18,15 +18,15 @@ export async function fetchList() {
                     let packs = packsList.filter((x) =>
                         x.levels.includes(path)
                     );
-                    return (
+                    return [
                         {
                             ...level,
                             packs,
                             path,
                             records: level.records,
-                        }
-                    ), 
-                    null;
+                        },
+                        null
+                    ];
                 } catch {
                     console.error(`Nepavyko užkrauti lygio: #${rank + 1} ${path}.`);
                     return [null, path];
