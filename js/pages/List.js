@@ -72,8 +72,10 @@ export default {
                             <td class="user">
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
-                            <td class="enjoyment">
+                            <td class="user">
                                 <p>Enjoyment: {{ record.enjoyment }}/10</p>
+                                <p v-if="record.enjoyment != null">{{ record.enjoyment }}/10</p>
+                                <p v-else">Nenurodyta</p>
                             </td>
                         </tr>
                     </table>
