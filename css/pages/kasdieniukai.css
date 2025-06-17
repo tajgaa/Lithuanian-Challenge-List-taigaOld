@@ -1,0 +1,158 @@
+.page-leaderboard-container {
+    display: block;
+}
+.page-leaderboard {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(23rem, 2fr) 4fr;
+    grid-template-rows: max-content 1fr;
+    column-gap: 2rem;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.page-leaderboard > div {
+    overflow-y: auto;
+}
+.page-leaderboard .error-container {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+.page-leaderboard .error-container .error {
+    padding: 1rem;
+    background-color: var(--color-error);
+    color: var(--color-on-error);
+}
+.page-leaderboard .board-container,
+.page-leaderboard .player-container {
+    grid-row: 2;
+    padding-block: 2rem;
+}
+.page-leaderboard .board-container {
+    padding-inline: 1rem;
+}
+.page-leaderboard .board {
+    table-layout: auto;
+    display: block;
+    width: 90%;
+}
+.page-leaderboard .board .rank {
+    padding-block: 1rem;
+    text-align: end;
+}
+.page-leaderboard .board .total {
+    padding: 1rem;
+    text-align: end;
+}
+.page-leaderboard .board .user {
+    width: 100%;
+}
+.page-leaderboard .board .user button {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: start;
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+.page-leaderboard .board .user button:hover {
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background-hover);
+    cursor: pointer;
+}
+.page-leaderboard .board .user.active button {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+.page-leaderboard .player{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+.page-leaderboard .player .table {
+    table-layout: fixed;
+}
+.page-leaderboard .player .table tr td:not(:last-child) {
+    padding-right: 2rem;
+}
+.page-leaderboard .player .table p,
+.page-leaderboard .player .table a {
+    padding-block: 1rem;
+}
+.page-leaderboard .player .table .rank p,
+.page-leaderboard .player .table .score p {
+    text-align: end;
+}
+
+.page-leaderboard .player .packs {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.3em;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    scale: 1;
+    justify-content: center;
+    row-gap: 0.7em;
+}
+
+.page-leaderboard .player .stats-container .levels,
+.page-leaderboard .player .stats-container .extra .levels{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    scale: 1;
+    justify-content: center;
+}
+.page-leaderboard .player .stats-container .levels-counter{
+    padding-top: 9px;
+    font-weight: 350;
+    padding-bottom: 10px; 
+    width: 100%;
+    opacity: 70%;
+    text-align: center;
+
+}
+.page-leaderboard .player .stats-container .levels .level-display,
+.page-leaderboard .player .stats-container .extra .levels .level-display
+ {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    text-shadow: 2px 2px 4px black;
+    padding: 3px;
+}
+.page-leaderboard .player .stats-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    column-gap: 15%;
+}
+.page-leaderboard .player .stats-container .extra {
+    width:40%;
+    align-items: center;
+}
+.page-leaderboard .player .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 14px;
+    text-shadow: 2px 2px 4px black;
+    background-size: 100% 100% !important;
+    padding: 10px;
+    margin: 0.2em;
+    scale: 1.2;
+}
+.page-leaderboard .player .table .level {
+    width: 100%;
+}
+.page-leaderboard .player .table a:hover {
+    text-decoration: underline;
+}
